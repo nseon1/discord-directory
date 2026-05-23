@@ -202,27 +202,30 @@ export default function ReadingGroupsPage() {
           </div>
         ) : (
           <div className="flex-1 bg-card border border-border rounded-xl bevel-border overflow-hidden flex flex-col min-h-[500px]">
-            {/* Calendar Header (Days) */}
-            <div className="flex border-b border-border bg-muted/50">
-              <div className="w-16 flex-shrink-0 border-r border-border" /> {/* Time column spacer */}
-              {days.map((day, i) => (
-                <div key={i} className="flex-1 min-w-[120px] py-3 text-center border-r border-border last:border-r-0">
-                  <div className={`text-xs font-semibold uppercase ${i === 0 ? "text-primary" : "text-muted-foreground"}`}>
-                    {day.toLocaleDateString('en-US', { weekday: 'short' })}
+            
+            {/* The unified scroll area for both X and Y */}
+            <div ref={scrollRef} className="flex-1 overflow-auto scrollbar-gold relative">
+              
+              {/* Calendar Header (Days) - Frozen to Top */}
+              <div className="flex border-b border-border bg-muted/95 backdrop-blur sticky top-0 z-40 w-fit min-w-full">
+                <div className="w-16 flex-shrink-0 border-r border-border bg-muted/95 sticky left-0 z-50" /> {/* Time column spacer */}
+                {days.map((day, i) => (
+                  <div key={i} className="flex-1 min-w-[120px] py-3 text-center border-r border-border last:border-r-0">
+                    <div className={`text-xs font-semibold uppercase ${i === 0 ? "text-primary" : "text-muted-foreground"}`}>
+                      {day.toLocaleDateString('en-US', { weekday: 'short' })}
+                    </div>
+                    <div className={`text-lg mt-0.5 ${i === 0 ? "font-bold text-foreground" : "text-muted-foreground"}`}>
+                      {day.getDate()}
+                    </div>
                   </div>
-                  <div className={`text-lg mt-0.5 ${i === 0 ? "font-bold text-foreground" : "text-muted-foreground"}`}>
-                    {day.getDate()}
-                  </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
 
-            {/* Calendar Body (Grid) */}
-            <div ref={scrollRef} className="flex-1 overflow-y-auto scrollbar-gold relative">
-              <div className="flex" style={{ height: `${24 * 60}px` }}> {/* 1px = 1 minute */}
+              {/* Calendar Body (Grid) */}
+              <div className="flex w-fit min-w-full" style={{ height: `${24 * 60}px` }}> 
                 
-                {/* Time Labels */}
-                <div className="w-16 flex-shrink-0 border-r border-border bg-card relative">
+                {/* Time Labels - Frozen to Left */}
+                <div className="w-16 flex-shrink-0 border-r border-border bg-card relative sticky left-0 z-30">
                   {hours.map(hour => (
                     <div key={hour} className="absolute w-full text-right pr-2 text-xs text-muted-foreground -translate-y-1/2" style={{ top: `${hour * 60}px` }}>
                       {hour === 0 ? '12 AM' : hour < 12 ? `${hour} AM` : hour === 12 ? '12 PM' : `${hour - 12} PM`}
@@ -232,11 +235,47 @@ export default function ReadingGroupsPage() {
 
                 {/* Day Columns */}
                 {days.map((day, dayIndex) => {
-                  // Filter events that fall on this specific day
-                  const dayEvents = events.filter(e => 
-                    e.start.getDate() === day.getDate() && 
-                    e.start.getMonth() === day.getMonth()
-                  )
+                  
+                  // Filter and sort events for this day
+                  const dayEventsRaw = events
+                    .filter(e => e.start.getDate() === day.getDate() && e.start.getMonth() === day.getMonth())
+                    .sort((a, b) => a.start.getTime() - b.start.getTime() || b.end.getTime() - a.end.getTime())
+
+                  // ALGORITHM: Find overlapping clusters to calculate columns
+                  const eventClusters: CalendarEvent[][] = []
+                  let currentCluster: CalendarEvent[] = []
+                  let clusterEnd = 0
+
+                  dayEventsRaw.forEach(evt => {
+                    if (currentCluster.length === 0 || evt.start.getTime() < clusterEnd) {
+                      currentCluster.push(evt)
+                      clusterEnd = Math.max(clusterEnd, evt.end.getTime())
+                    } else {
+                      eventClusters.push([...currentCluster])
+                      currentCluster = [evt]
+                      clusterEnd = evt.end.getTime()
+                    }
+                  })
+                  if (currentCluster.length > 0) eventClusters.push(currentCluster)
+
+                  // ALGORITHM: Assign column indexes
+                  const renderedEvents: { evt: CalendarEvent, colIdx: number, totalCols: number }[] = []
+                  eventClusters.forEach(cluster => {
+                    const cols: number[] = []
+                    cluster.forEach(evt => {
+                      let colIdx = 0
+                      while (cols[colIdx] !== undefined && cols[colIdx] > evt.start.getTime()) {
+                        colIdx++
+                      }
+                      cols[colIdx] = evt.end.getTime()
+                      renderedEvents.push({ evt, colIdx, totalCols: 1 }) // temporary total
+                    })
+                    const maxCols = cols.length
+                    // Backfill max columns for the current cluster
+                    for (let i = renderedEvents.length - cluster.length; i < renderedEvents.length; i++) {
+                      renderedEvents[i].totalCols = maxCols
+                    }
+                  })
 
                   return (
                     <div key={dayIndex} className="flex-1 min-w-[120px] border-r border-border last:border-r-0 relative">
@@ -248,7 +287,7 @@ export default function ReadingGroupsPage() {
                       {/* Current Time Indicator (Only on Today) */}
                       {dayIndex === 0 && (
                         <div 
-                          className="absolute w-full z-20 flex items-center"
+                          className="absolute w-full z-20 flex items-center pointer-events-none"
                           style={{ top: `${new Date().getHours() * 60 + new Date().getMinutes()}px` }}
                         >
                           <div className="w-2 h-2 rounded-full bg-destructive -ml-1 absolute" />
@@ -256,10 +295,14 @@ export default function ReadingGroupsPage() {
                         </div>
                       )}
 
-                      {/* Events */}
-                      {dayEvents.map((evt, evtIndex) => {
+                      {/* Events Rendered */}
+                      {renderedEvents.map(({ evt, colIdx, totalCols }, evtIndex) => {
                         const top = evt.start.getHours() * 60 + evt.start.getMinutes()
                         const duration = (evt.end.getTime() - evt.start.getTime()) / 60000
+                        
+                        // Calculate width and position dynamically
+                        const widthPct = 100 / totalCols
+                        const leftPct = widthPct * colIdx
                         
                         return (
                           <a
@@ -267,18 +310,21 @@ export default function ReadingGroupsPage() {
                             href={evt.link}
                             target="_blank"
                             rel="noreferrer"
-                            className="absolute left-1 right-1 rounded-md p-1.5 overflow-hidden transition-all hover:z-30 hover:ring-2 ring-primary/50 group block text-left"
+                            // Added hover:!w-[] and hover:!left-[] to override inline styles and expand on hover
+                            className="absolute rounded-md p-1.5 overflow-hidden transition-all duration-200 hover:!w-[calc(100%-4px)] hover:!left-[2px] hover:z-40 hover:ring-2 ring-primary/50 group block text-left shadow-sm"
                             style={{ 
                               top: `${top}px`, 
-                              height: `${duration - 2}px`, // -2 for tiny gap
+                              height: `${Math.max(duration - 2, 20)}px`, // -2 for tiny gap, 20px min-height
+                              width: `calc(${widthPct}% - 4px)`,
+                              left: `calc(${leftPct}% + 2px)`,
                               background: "linear-gradient(135deg, var(--gold-dark), var(--gold))",
-                              boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
+                              zIndex: 10 + colIdx // ensures overlapping layer logic
                             }}
                           >
-                            <div className="text-[10px] sm:text-xs font-bold leading-tight text-primary-foreground">
+                            <div className="text-[10px] sm:text-xs font-bold leading-tight text-primary-foreground line-clamp-2">
                               {evt.name}
                             </div>
-                            <div className="text-[9px] sm:text-[10px] text-primary-foreground/80 mt-0.5 flex items-center justify-between">
+                            <div className="text-[9px] sm:text-[10px] text-primary-foreground/90 mt-0.5 flex items-center justify-between">
                               <span>
                                 {evt.start.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}
                               </span>
@@ -295,6 +341,7 @@ export default function ReadingGroupsPage() {
                 })}
               </div>
             </div>
+
           </div>
         )}
       </main>

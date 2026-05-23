@@ -43,7 +43,7 @@ import {
 import Link from "next/link"
 
 const SERVERS_URL = "/servers.json";
-const TSNE_URL = "/tsne.json";
+const TSNE_URL = "/servers_tsne.json";
 
 interface Server {
   name: string
@@ -598,32 +598,7 @@ function TsneView({
         )}
       </div>
       
-      {selected && (
-        <div className="bg-card rounded-xl p-4 border border-border bevel-border glow-gold">
-          <div className="flex items-start justify-between">
-            <div>
-              <span className="font-bold text-foreground">{selected.name}</span>
-              <span className="mx-2 text-muted-foreground">·</span>
-              <span className="font-semibold" style={{ color: getScoreColorHex(selected.score || 0, isDark) }}>
-                Score: {selected.score || 0}
-              </span>
-            </div>
-            {selected.link && selected.link !== "#" && (
-              <a
-                href={selected.link}
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary hover:underline flex items-center gap-1 text-sm"
-              >
-                Open <ExternalLink className="h-3 w-3" />
-              </a>
-            )}
-          </div>
-          {selected.notes && (
-            <p className="text-muted-foreground mt-2 text-sm">{selected.notes}</p>
-          )}
-        </div>
-      )}
+
       
       {/* Legend */}
       <div className="flex gap-4 flex-wrap items-center text-xs text-muted-foreground">
@@ -881,12 +856,12 @@ function ListView({
   hiddenTags: Set<string>
   setHiddenTags: React.Dispatch<React.SetStateAction<Set<string>>>
   isDark: boolean
-  handleVote: (serverName: string, score: number) => void // <--- And this
+  handleVote: (serverName: string, score: number) => void
 }) {
   const [query, setQuery] = useState("")
   const [scoreRange, setScoreRange] = useState<[number, number]>([0, 10])
   const [compact, setCompact] = useState(false)
-  const [sortBy, setSortBy] = useState("score")
+  const [sortBy, setSortBy] = useState("creator_score")
   const [compactColumns, setCompactColumns] = useState<string[]>(["score", "tags", "activity"])
   const [descSource, setDescSource] = useState<DescriptionSource>("short")
 
@@ -909,7 +884,24 @@ function ListView({
             return false
           return true
         })
-        .sort((a, b) => (sortBy === "score" ? (b.score || 0) - (a.score || 0) : a.name.localeCompare(b.name))),
+        .sort((a, b) => {
+          if (sortBy === "name") return a.name.localeCompare(b.name)
+          
+          if (sortBy === "creator_score") return (b.seon_score || 0) - (a.seon_score || 0)
+          
+          const aComm = a.community_count ? (a.score || 0) : 0
+          const bComm = b.community_count ? (b.score || 0) : 0
+          if (sortBy === "community_score") return bComm - aComm
+          
+          // highest_difference: Absolute difference between Creator and Community score
+          if (sortBy === "highest_difference") {
+            const aDiff = a.community_count ? Math.abs((a.seon_score || 0) - (a.score || 0)) : 0
+            const bDiff = b.community_count ? Math.abs((b.seon_score || 0) - (b.score || 0)) : 0
+            return bDiff - aDiff
+          }
+          
+          return 0
+        }),
     [data, query, tagFilters, scoreRange, sortBy]
   )
 
@@ -957,8 +949,11 @@ function ListView({
           onChange={(e) => setSortBy(e.target.value)}
           className="bg-card border border-border rounded-lg px-4 py-2 text-foreground text-sm bevel-border"
         >
-          <option value="score">Sort: Score</option>
+          <option value="creator_score">Sort: Creator Score</option>
+          <option value="community_score">Sort: Community Score</option>
           <option value="name">Sort: Name</option>
+          <option value="highest_difference">Sort: Highest Difference</option>
+
         </select>
         
         <label className="flex items-center gap-2 text-sm cursor-pointer">
@@ -1111,7 +1106,6 @@ function ListView({
   className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 outline-none hover:border-primary transition-colors w-14"
   onKeyDown={(e) => {
     if (e.key === 'Enter') {
-      // Parse, round to 1 decimal place, and validate
       const val = Math.round(parseFloat(e.currentTarget.value) * 10) / 10;
       if (!isNaN(val) && val >= 1 && val <= 10) {
         handleVote(s.name, val);
@@ -1220,7 +1214,6 @@ function ListView({
   className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 outline-none hover:border-primary transition-colors w-14"
   onKeyDown={(e) => {
     if (e.key === 'Enter') {
-      // Parse, round to 1 decimal place, and validate
       const val = Math.round(parseFloat(e.currentTarget.value) * 10) / 10;
       if (!isNaN(val) && val >= 1 && val <= 10) {
         handleVote(s.name, val);
@@ -1232,7 +1225,8 @@ function ListView({
   }}
 />
                   </div>
-                </div>              
+                </div>  
+                </div>            
               {getDescription(s) && (
                 <p className="text-muted-foreground text-sm leading-relaxed mb-3">
                   {getDescription(s)}
@@ -1254,6 +1248,7 @@ function ListView({
     </div>
   )
 }
+
 
 // Navigation header component
 function Header() {
@@ -1401,6 +1396,7 @@ function Header() {
           </div>
         </div>
       </div>
+      </div>
     </header>
   )
 }
@@ -1521,7 +1517,7 @@ useEffect(() => {
           <div className="w-16 h-16 mx-auto rounded-xl bg-gradient-to-br from-gold-light via-gold to-gold-dark flex items-center justify-center animate-pulse">
             <Sparkles className="h-8 w-8 text-primary-foreground" />
           </div>
-          <p className="text-muted-foreground">Loading servers...</p>
+          <p className="text-muted-foreground">Please donate my PC doesn't even have GPU It's an I5....Loading....</p>
         </div>
       </div>
     )

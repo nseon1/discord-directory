@@ -78,12 +78,12 @@ const faqs = [
       <>
         Scores by me, code here:{" "}
         <a 
-          href="https://github.com/nseon1/jsonforservers/tree/main" 
+          href="https://github.com/nseon1/discord-directory" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-primary hover:underline break-all"
         >
-          https://github.com/nseon1/jsonforservers/tree/main
+          https://github.com/nseon1/discord-directory
         </a>
         . You can submit servers to the spreadsheet. And I am looking for assistance to add community scores!
       </>
