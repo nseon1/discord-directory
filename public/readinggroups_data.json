@@ -1,0 +1,219 @@
+[
+    {
+        "name":"latent space LLM paper club",
+        "ISOstart":"2024-01-03T20:00:00Z",
+        "ISOend":"2024-01-03T21:00:00Z",
+        "link":"https:\/\/www.latent.space\/",
+        "type":"weekly"
+    },
+    {
+        "name":"unitary foundation quantum reading group",
+        "ISOstart":"2024-01-03T16:30:00Z",
+        "ISOend":"2024-01-03T17:30:00Z",
+        "link":"https:\/\/unitary.foundation\/",
+        "type":"weekly"
+    },
+    {
+        "name":"bluedot evals paper reading",
+        "ISOstart":"2024-01-02T16:00:00Z",
+        "ISOend":"2024-01-02T17:00:00Z",
+        "link":"https:\/\/luma.com\/bluedotevents",
+        "type":"weekly"
+    },
+    {
+        "name":"wolfram institute desci office hours",
+        "ISOstart":"2024-01-02T17:30:00Z",
+        "ISOend":"2024-01-02T18:30:00Z",
+        "link":"https:\/\/wolframinstitute.org\/community",
+        "type":"weekly"
+    },
+    {
+        "name":"aspirational neuroscience",
+        "ISOstart":"2024-01-09T22:00:00Z",
+        "ISOend":"2024-01-09T23:00:00Z",
+        "link":"https:\/\/aspirationalneuroscience.org\/",
+        "type":"biweekly"
+    },
+    {
+        "name":"medarc mindeye",
+        "ISOstart":"2024-01-04T20:30:00Z",
+        "ISOend":"2024-01-04T21:30:00Z",
+        "link":"https:\/\/www.medarc.ai\/",
+        "type":"weekly"
+    },
+    {
+        "name":"Synthetic Biology Young Speaker Series",
+        "ISOstart":"2024-01-04T15:00:00Z",
+        "ISOend":"2024-01-04T16:00:00Z",
+        "link":"https:\/\/ebrc.org\/synthetic-biology-young-speaker-series-synbyss\/",
+        "type":"weekly"
+    },
+    {
+        "name":"alignment ecosystem ai safety reading group",
+        "ISOstart":"2024-01-11T18:45:00Z",
+        "ISOend":"2024-01-11T20:15:00Z",
+        "link":"https:\/\/alignment.dev\/",
+        "type":"biweekly"
+    },
+    {
+        "name":"john's ai reading group",
+        "ISOstart":"2024-01-01T02:00:00Z",
+        "ISOend":"2024-01-01T03:30:00Z",
+        "link":"https:\/\/www.youtube.com\/channel\/UCgRNCT8mrzKYebyG3Ao9DJA",
+        "type":"weekly"
+    },
+    {
+        "name":"Yannic kilcher paper club",
+        "ISOstart":"2024-01-06T18:00:00Z",
+        "ISOend":"2024-01-06T20:00:00Z",
+        "link":"https:\/\/www.youtube.com\/c\/yannickilcher",
+        "type":"weekly"
+    },
+    {
+        "name":"orthogonal research neurosim",
+        "ISOstart":"2024-01-06T14:00:00Z",
+        "ISOend":"2024-01-06T15:00:00Z",
+        "link":"https:\/\/orthogonal-research.weebly.com\/",
+        "type":"weekly"
+    },
+    {
+        "name":"MLST study group",
+        "ISOstart":"2024-01-13T16:00:00Z",
+        "ISOend":"2024-01-13T17:00:00Z",
+        "link":"https:\/\/www.youtube.com\/channel\/UCMLtBahI5DMrt0NPvDSoIRQ",
+        "type":"biweekly"
+    },
+    {
+        "name":"Artifical intelligence engineering",
+        "ISOstart":"2024-01-06T18:00:00Z",
+        "ISOend":"2024-01-06T19:00:00Z",
+        "link":"https:\/\/artificial-intelligence.gg\/",
+        "type":"biweekly"
+    },
+    {
+        "name":"Artifical intelligence PRML study group",
+        "ISOstart":"2024-01-13T15:00:00Z",
+        "ISOend":"2024-01-13T16:00:00Z",
+        "link":"https:\/\/artificial-intelligence.gg\/",
+        "type":"biweekly"
+    },
+    {
+        "name":"Artifical intelligence mackay information theory",
+        "ISOstart":"2024-01-06T15:00:00Z",
+        "ISOend":"2024-01-06T16:00:00Z",
+        "link":"https:\/\/artificial-intelligence.gg\/",
+        "type":"biweekly"
+    },
+    {
+        "name":"Multimodality reading group",
+        "ISOstart":"2024-01-01T23:30:00Z",
+        "ISOend":"2024-01-02T00:30:00Z",
+        "link":"https:\/\/sites.google.com\/prod\/view\/divyamereddy\/multi-modality-reading-group",
+        "type":"weekly"
+    },
+    {
+        "name":"AI-plans working group",
+        "ISOstart":"2024-01-01T16:00:00Z",
+        "ISOend":"2024-01-01T17:00:00Z",
+        "link":"https:\/\/ai-plans.com\/",
+        "type":"weekly"
+    },
+    {
+        "name":"mechanistic interpretability reading group",
+        "ISOstart":"2024-01-01T15:00:00Z",
+        "ISOend":"2024-01-01T16:00:00Z",
+        "link":"https:\/\/www.lesswrong.com\/posts\/ePGwx2uyjnvT8vWEL\/mechanistic-interpretability-reading-group",
+        "type":"weekly"
+    },
+    {
+        "name":"Mathematics & Efficiency of Deep Learning",
+        "ISOstart":"2024-01-01T15:00:00Z",
+        "ISOend":"2024-01-01T16:00:00Z",
+        "link":"https:\/\/ellis.eu\/reading-groups",
+        "type":"weekly"
+    },
+    {
+        "name":"latent space AI in action",
+        "ISOstart":"2024-01-05T20:00:00Z",
+        "ISOend":"2024-01-05T21:00:00Z",
+        "link":"https:\/\/www.latent.space\/",
+        "type":"weekly"
+    },
+    {
+        "name":"MLST friday fireside",
+        "ISOstart":"2024-01-05T15:00:00Z",
+        "ISOend":"2024-01-05T16:00:00Z",
+        "link":"https:\/\/www.youtube.com\/channel\/UCMLtBahI5DMrt0NPvDSoIRQ",
+        "type":"weekly"
+    },
+    {
+        "name":"ai-plans paper reading",
+        "ISOstart":"2024-01-05T17:00:00Z",
+        "ISOend":"2024-01-05T18:00:00Z",
+        "link":"https:\/\/ai-plans.com\/",
+        "type":"weekly"
+    },
+    {
+        "name":"ML collective reading group",
+        "ISOstart":"2024-01-05T17:00:00Z",
+        "ISOend":"2024-01-05T18:00:00Z",
+        "link":"https:\/\/mlcollective.org\/",
+        "type":"weekly"
+    },
+    {
+        "name":"quantum biology dao science working group",
+        "ISOstart":"2024-01-05T17:00:00Z",
+        "ISOend":"2024-01-05T18:00:00Z",
+        "link":"https:\/\/www.quantumbiology.xyz\/",
+        "type":"weekly"
+    },
+    {
+        "name":"Cohere Labs open science beginner in research",
+        "ISOstart":"2024-01-06T15:00:00Z",
+        "ISOend":"2024-01-06T17:00:00Z",
+        "link":"https:\/\/cohere.com\/research\/open-science\/application",
+        "type":"biweekly"
+    },
+    {
+        "name":"formal language and neural network",
+        "ISOstart":"2024-01-01T15:00:00Z",
+        "ISOend":"2024-01-01T16:00:00Z",
+        "link":"https:\/\/flannseminars.github.io\/",
+        "type":"weekly"
+    },
+    {
+        "name":"Active inference theoretical neurobiology",
+        "ISOstart":"2024-01-01T13:30:00Z",
+        "ISOend":"2024-01-01T14:30:00Z",
+        "link":"https:\/\/www.activeinference.org\/",
+        "type":"weekly"
+    },
+    {
+        "name":"Active inference theoretical neurobiology tuesday",
+        "ISOstart":"2024-01-02T13:30:00Z",
+        "ISOend":"2024-01-02T14:30:00Z",
+        "link":"https:\/\/www.activeinference.org\/",
+        "type":"weekly"
+    },
+    {
+        "name":"Deepchem Office hours mon",
+        "ISOstart":"2024-01-01T16:00:00Z",
+        "ISOend":"2024-01-01T17:00:00Z",
+        "link":"https:\/\/deepchem.io\/",
+        "type":"weekly"
+    },
+    {
+        "name":"deepchem Office hours wed",
+        "ISOstart":"2024-01-03T16:00:00Z",
+        "ISOend":"2024-01-03T17:00:00Z",
+        "link":"https:\/\/deepchem.io\/",
+        "type":"weekly"
+    },
+    {
+        "name":"deepchem Office hours fri",
+        "ISOstart":"2024-01-05T16:00:00Z",
+        "ISOend":"2024-01-05T17:00:00Z",
+        "link":"https:\/\/deepchem.io\/",
+        "type":"weekly"
+    }
+]

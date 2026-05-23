@@ -1,26 +1,209 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
+@custom-variant dark (&:is(.dark *));
+
+/* Y2K Porcelain & Chrome Theme */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light mode - blinding whites, porcelain artificiality, faint greenish-silver */
+  --background: oklch(0.98 0.02 165); /* Faint greenish silver white */
+  --foreground: oklch(0.35 0.05 165); /* Dark chrome text */
+  --card: oklch(1 0.01 165); /* Blinding porcelain white */
+  --card-foreground: oklch(0.35 0.05 165);
+  --popover: oklch(1 0.02 165);
+  --popover-foreground: oklch(0.35 0.05 165);
+  --primary: oklch(0.92 0.08 165); /* Heavy faint greenish silver */
+  --primary-foreground: oklch(0.2 0.05 165);
+  --secondary: oklch(0.95 0.04 165);
+  --secondary-foreground: oklch(0.3 0.05 165);
+  --muted: oklch(0.96 0.03 165);
+  --muted-foreground: oklch(0.5 0.04 165);
+  --accent: oklch(0.88 0.1 165);
+  --accent-foreground: oklch(0.2 0.05 165);
+  --destructive: oklch(0.6 0.15 20);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.85 0.06 165); /* Shiny chrome border */
+  --input: oklch(0.94 0.04 165);
+  --ring: oklch(0.85 0.08 165);
+  
+  /* Y2K Cyberspace Chart Colors */
+  --chart-1: oklch(0.85 0.08 165);
+  --chart-2: oklch(0.75 0.1 170);
+  --chart-3: oklch(0.65 0.12 175);
+  --chart-4: oklch(0.90 0.06 160);
+  --chart-5: oklch(0.80 0.09 165);
+  --radius: 0.5rem;
+  
+  /* Repurposing "gold" variables into Greenish-Silver Chrome to avoid breaking classes */
+  --gold: oklch(0.88 0.08 165);
+  --gold-light: oklch(1 0.03 165); /* Extreme bloom / lens flare white */
+  --gold-dark: oklch(0.70 0.08 165); /* Deeper chrome reflection */
+  --gold-muted: oklch(0.94 0.05 165);
+  
+  /* Adjusted score colors for the new theme */
+  --score-excellent: oklch(0.85 0.15 160);
+  --score-good: oklch(0.88 0.1 140);
+  --score-medium: oklch(0.85 0.08 100);
+  --score-low: oklch(0.80 0.1 40);
+}
+
+.dark {
+  /* Dark mode - deep blacks with gold accents (Kept as is) */
+  --background: oklch(0.12 0.01 60);
+  --foreground: oklch(0.95 0.01 85);
+  --card: oklch(0.16 0.015 60);
+  --card-foreground: oklch(0.95 0.01 85);
+  --popover: oklch(0.14 0.012 60);
+  --popover-foreground: oklch(0.95 0.01 85);
+  --primary: oklch(0.75 0.14 80);
+  --primary-foreground: oklch(0.12 0.02 60);
+  --secondary: oklch(0.22 0.02 60);
+  --secondary-foreground: oklch(0.92 0.01 85);
+  --muted: oklch(0.20 0.015 60);
+  --muted-foreground: oklch(0.65 0.02 85);
+  --accent: oklch(0.65 0.12 75);
+  --accent-foreground: oklch(0.95 0.01 85);
+  --destructive: oklch(0.45 0.20 25);
+  --destructive-foreground: oklch(0.95 0 0);
+  --border: oklch(0.28 0.025 65);
+  --input: oklch(0.22 0.02 60);
+  --ring: oklch(0.75 0.14 80);
+  --chart-1: oklch(0.75 0.14 80);
+  --chart-2: oklch(0.60 0.12 50);
+  --chart-3: oklch(0.50 0.10 35);
+  --chart-4: oklch(0.78 0.12 90);
+  --chart-5: oklch(0.65 0.10 65);
+  
+  /* Custom gold accent colors for dark mode */
+  --gold: oklch(0.75 0.14 80);
+  --gold-light: oklch(0.82 0.11 85);
+  --gold-dark: oklch(0.60 0.15 72);
+  --gold-muted: oklch(0.50 0.08 75);
+  
+  /* Score colors for visualizations - slightly brighter for dark mode */
+  --score-excellent: oklch(0.70 0.22 145);
+  --score-good: oklch(0.78 0.20 95);
+  --score-medium: oklch(0.75 0.20 60);
+  --score-low: oklch(0.65 0.24 30);
 }
 
 @theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  /* Mapped to Chrome/Silver in light mode, Gold in dark mode */
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-gold-muted: var(--gold-muted);
+  
+  /* Score colors */
+  --color-score-excellent: var(--score-excellent);
+  --color-score-good: var(--score-good);
+  --color-score-medium: var(--score-medium);
+  --color-score-low: var(--score-low);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom scrollbar and utilities for the aesthetic */
+@layer utilities {
+  .scrollbar-gold {
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold-muted) transparent;
+  }
+  
+  .scrollbar-gold::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-gold::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-gold::-webkit-scrollbar-thumb {
+    background: var(--gold-muted);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-gold::-webkit-scrollbar-thumb:hover {
+    background: var(--gold);
+  }
+  
+  /* Beveled border effect (Chrome plastic edges in light mode) */
+  .bevel-border {
+    box-shadow: 
+      inset 2px 2px 5px 0 oklch(1 0.02 165 / 0.8), /* Blinding highlight */
+      inset -2px -2px 5px 0 oklch(0.6 0.05 165 / 0.2); /* Silver shadow */
+  }
+  
+  .dark .bevel-border {
+    box-shadow: 
+      inset 1px 1px 0 0 oklch(1 0 0 / 0.08),
+      inset -1px -1px 0 0 oklch(0 0 0 / 0.3);
+  }
+  
+  /* Gradient text (Chrome/Porcelain in light, Gold in dark) */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, var(--gold-dark) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Added porcelain artificiality text shadow for light mode */
+    text-shadow: 0 0 10px oklch(1 0 0 / 0.5);
+  }
+  
+  .dark .text-gold-gradient {
+    text-shadow: none;
+  }
+  
+  /* Border gradient */
+  .border-gold-gradient {
+    border-image: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark)) 1;
+  }
+  
+  /* Intense Glow / Halation for Y2K extreme bloom */
+  .glow-gold {
+    box-shadow: 0 0 30px -2px var(--gold-light), 0 0 10px -2px var(--gold);
+  }
+  
+  .dark .glow-gold {
+    box-shadow: 0 0 30px -5px oklch(0.75 0.14 80 / 0.3);
+  }
 }

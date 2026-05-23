@@ -1,0 +1,102 @@
+[
+    {
+        "project name":"mindseye",
+        "project description":"Fmri related",
+        "contact":"https:\/\/www.medarc.ai\/"
+    },
+    {
+        "project name":"psyche",
+        "project description":"decentralized learning",
+        "contact":"https:\/\/nousresearch.com\/"
+    },
+    {
+        "project name":"atropos ",
+        "project description":"various RL environments",
+        "contact":"https:\/\/nousresearch.com\/"
+    },
+    {
+        "project name":"worldsim",
+        "project description":"world models",
+        "contact":"https:\/\/nousresearch.com\/"
+    },
+    {
+        "project name":"mozilla projects",
+        "project description":"Various AI and non AI projects",
+        "contact":"https:\/\/future.mozilla.org\/"
+    },
+    {
+        "project name":"deepchem projects",
+        "project description":"AI for chemistry",
+        "contact":"https:\/\/deepchem.io\/"
+    },
+    {
+        "project name":"GOLEM",
+        "project description":"Generalist Omnimodal Learning in Engineered Minds",
+        "contact":"https:\/\/www.manifoldrg.com\/"
+    },
+    {
+        "project name":"Orbital yard",
+        "project description":"programmable cells",
+        "contact":"https:\/\/www.manifoldrg.com\/"
+    },
+    {
+        "project name":"Holon",
+        "project description":"construction while in space",
+        "contact":"https:\/\/www.manifoldrg.com\/"
+    },
+    {
+        "project name":"astrobridge",
+        "project description":"LLMs for astronomy",
+        "contact":"https:\/\/github.com\/UniverseTBD"
+    },
+    {
+        "project name":"coherelabs projects",
+        "project description":"Various AI projects",
+        "contact":"https:\/\/cohere.com\/research\/open-science\/application"
+    },
+    {
+        "project name":"eleutherAI projects",
+        "project description":"Various AI projects",
+        "contact":"https:\/\/www.eleuther.ai\/"
+    },
+    {
+        "project name":"overworld wayfarer",
+        "project description":"open world models",
+        "contact":"https:\/\/wayfarerlabs.ai\/"
+    },
+    {
+        "project name":"helpfulengineering",
+        "project description":"various engineering projects",
+        "contact":"https:\/\/helpfulengineering.org\/projects\/"
+    },
+    {
+        "project name":"torchbearer projects",
+        "project description":"AI safety,policy,etc",
+        "contact":"https:\/\/www.torchbearer.community\/"
+    },
+    {
+        "project name":"open neuromorphic projects",
+        "project description":"neuromorphic projects",
+        "contact":"https:\/\/open-neuromorphic.org\/"
+    },
+    {
+        "project name":"comma ai self driving car",
+        "project description":"open source self driving car",
+        "contact":"https:\/\/discord.com\/invite\/FEzeve2NX2"
+    },
+    {
+        "project name":"unitary foundation",
+        "project description":"quantum physics style projects",
+        "contact":"https:\/\/unitary.foundation\/"
+    },
+    {
+        "project name":"open phi collective",
+        "project description":"foundation models among others",
+        "contact":"https:\/\/huggingface.co\/open-sci\/models"
+    },
+    {
+        "project name":"evaleval",
+        "project description":"evaluations on benchmarks etc (i.e: 1st derivative of evals)",
+        "contact":"https:\/\/evalevalai.com\/"
+    }
+]
