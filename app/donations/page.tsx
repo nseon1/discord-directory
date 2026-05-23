@@ -83,7 +83,7 @@ export default function DonationsPage() {
             </div>
             <h1 className="text-3xl font-bold text-foreground">Support the Project</h1>
             <p className="text-muted-foreground max-w-lg mx-auto">
-             Anyone who sends more than $10 becomes a sponsor on the credits page.
+             Anyone who sends more than $10 becomes a sponsor on the credits page.$100 and you get to write your own/leave a message.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function DonationsPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span> Buying me a new PC, funding a book on the state of open science. About $4000 is required. Most of it to buy a PC, if you have one to donate that would be appreciated as im running an I7 CPU.</span>
+                <span> Buying me a new PC, funding a book on the state of open science. About $3000 is required. Most of it to buy a PC, if you have one to donate that would be appreciated as im running an I5 CPU.</span>
               </li>
             </ul>
           </div>
@@ -120,7 +120,7 @@ export default function DonationsPage() {
               Support Platforms
             </h2>
             <p className="text-muted-foreground mb-4">
-              Show your appreciation with a small donation through these platforms:
+              Show your love of openscience by donating  through these platforms, $10 or more gives you a sponsor.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="https://ko-fi.com/seonresearch" target="_blank" rel="noopener noreferrer">
@@ -156,8 +156,7 @@ export default function DonationsPage() {
           <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-transparent rounded-2xl p-6 border border-primary/20 bevel-border text-center">
             <h2 className="text-xl font-bold text-foreground mb-2">Thank You!</h2>
             <p className="text-muted-foreground">
-              Every contribution, no matter how small, helps us continue improving the 
-              AI Discord Directory. We truly appreciate your support!
+              Money will be used to help expand,write a book on openscience,see about for more info, and continue my work in openscience and AI.
             </p>
           </div>
 
@@ -165,12 +164,12 @@ export default function DonationsPage() {
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4">Other Ways to Help</h2>
             <p className="text-muted-foreground mb-4">
-              Don't have the means to donate? No worries! Here are other ways you can support us:
+              Other ways you can support:
             </p>
             <ul className="text-muted-foreground space-y-2">
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Submit new servers to be listed, or help write code!</span>
+                <span>Submit new servers to be listed, or help write code.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
@@ -178,7 +177,7 @@ export default function DonationsPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Share the directory with others in the AI community</span>
+                <span>Share the directory with others in the research community</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>

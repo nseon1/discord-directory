@@ -31,7 +31,7 @@ export default function CreditsPage() {
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
               <Code className="h-5 w-5 text-primary" />
-              Core Team
+              Core Team,it's only 1 person
             </h2>
             <div className="space-y-4">
               <div className="flex items-center gap-4 p-4 bg-muted/50 rounded-xl">
@@ -96,6 +96,7 @@ export default function CreditsPage() {
                 "Tailwind CSS",
                 "shadcn/ui",
                 "Vercel",
+                "AI",
               ].map((tech) => (
                 <span
                   key={tech}
@@ -111,9 +112,10 @@ export default function CreditsPage() {
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4">Special Thanks</h2>
             <p className="text-muted-foreground leading-relaxed">
-              To all the Discord server owners and moderators who work tirelessly to build 
-              and maintain welcoming communities for AI enthusiasts. Your efforts make the 
-              AI space more accessible and collaborative for everyone.
+              To all the server owners and everyone else who work  to build 
+              and maintain welcoming communities for researchers. Your efforts make the 
+              open science research space more accessible and collaborative for everyone,
+              Leading to new papers from independents,upskilling, and the like.
             </p>
           </div>
 
@@ -121,7 +123,7 @@ export default function CreditsPage() {
           <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-transparent rounded-2xl p-6 border border-primary/20 bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-2">Want to Contribute?</h2>
             <p className="text-muted-foreground mb-4">
-              We welcome contributions! Whether it is submitting new servers, updating 
+              I welcome contributions! Whether it is submitting new servers, updating 
               existing information, or improving the code, every bit helps.
             </p>
             <div className="flex flex-col gap-2 mb-6">
