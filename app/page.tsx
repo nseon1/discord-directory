@@ -1664,7 +1664,7 @@ useEffect(() => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
             <p>Research community Directory - Find your community</p>
             <div className="flex gap-4">
-              <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
+              <Link href="/about" className="hover:text-foreground transition-colors">About/hire me</Link>
               <Link href="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
               <Link href="/credits" className="hover:text-foreground transition-colors">Credits</Link>
               <Link href="/donations" className="hover:text-foreground transition-colors">Donate</Link>

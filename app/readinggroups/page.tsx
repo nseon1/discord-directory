@@ -311,8 +311,7 @@ export default function ReadingGroupsPage() {
                             target="_blank"
                             rel="noreferrer"
                             // Added hover:!w-[] and hover:!left-[] to override inline styles and expand on hover
-                            className="absolute rounded-md p-1.5 overflow-hidden transition-all duration-200 hover:!w-[calc(100%-4px)] hover:!left-[2px] hover:z-40 hover:ring-2 ring-primary/50 group block text-left shadow-sm"
-                            style={{ 
+className="absolute rounded-md p-1.5 overflow-hidden transition-all duration-200 hover:!w-[calc(100%-4px)] hover:!left-[2px] hover:!z-50 hover:ring-2 ring-primary/50 group block text-left shadow-sm"                            style={{ 
                               top: `${top}px`, 
                               height: `${Math.max(duration - 2, 20)}px`, // -2 for tiny gap, 20px min-height
                               width: `calc(${widthPct}% - 4px)`,

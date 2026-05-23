@@ -70,19 +70,36 @@ export default function AboutPage() {
               </p>
 
               <div className="pt-6 border-t border-border mt-8">
-                <p className="text-foreground">
-                  You can find me on discord at <strong className="text-primary">seonresearch</strong><br />
-                  or <a 
-                    href="https://x.com/SeonGunness" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    https://x.com/SeonGunness
-                  </a>
-                </p>
+                <div className="text-foreground space-y-4">
+                  <p>
+                    You can find me on discord at <strong className="text-primary">seonresearch</strong> or on X (Twitter):{" "}
+                    <a 
+                      href="https://x.com/SeonGunness" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      https://x.com/SeonGunness
+                    </a>
+                  </p>
+                  <p>
+                    <strong>I am currently looking for work!</strong><br />
+                    I specialize in most things AI on the implementation side, with an understanding of SOTA LLM research. I'm also interested in metascience, interdisciplinary work, data gathering, and consultations!
+                  </p>
+                  <p>
+                    LinkedIn:{" "}
+                    <a 
+                      href="https://www.linkedin.com/in/seon-gunness-85405b10b/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline break-all"
+                    >
+                      https://www.linkedin.com/in/seon-gunness-85405b10b/
+                    </a>
+                  </p>
+                </div>
+              </div>            
               </div>
-            </div>
           </div>
         </div>
       </div>
