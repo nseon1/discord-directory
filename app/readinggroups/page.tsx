@@ -185,7 +185,7 @@ export default function ReadingGroupsPage() {
               Reading Groups
             </h2>
             <p className="text-muted-foreground text-sm mt-1">
-              Upcoming weekly and biweekly events, automatically converted to your local time.
+              Upcoming weekly and biweekly events, automatically converted to your local time. also check out <a href="https://researchseminars.org" target="_blank" rel="noreferrer" className="text-primary hover:underline">here</a> and <a href="https://www.aisafety.com/events-and-training" target="_blank" rel="noreferrer" className="text-primary hover:underline">here</a>,check the main page for more non-standard events!
             </p>
           </div>
           <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground bg-card px-3 py-1.5 rounded-full border border-border">
@@ -310,8 +310,8 @@ export default function ReadingGroupsPage() {
                             href={evt.link}
                             target="_blank"
                             rel="noreferrer"
-                            // Added hover:!w-[] and hover:!left-[] to override inline styles and expand on hover
-className="absolute rounded-md p-1.5 overflow-hidden transition-all duration-200 hover:!w-[calc(100%-4px)] hover:!left-[2px] hover:!z-50 hover:ring-2 ring-primary/50 group block text-left shadow-sm"                            style={{ 
+                            className="absolute rounded-md p-1.5 overflow-hidden transition-all duration-200 hover:!w-[calc(100%-4px)] hover:!left-[2px] hover:!h-auto hover:!z-50 hover:ring-2 ring-primary/50 group block text-left shadow-sm"
+                            style={{ 
                               top: `${top}px`, 
                               height: `${Math.max(duration - 2, 20)}px`, // -2 for tiny gap, 20px min-height
                               width: `calc(${widthPct}% - 4px)`,
@@ -320,7 +320,7 @@ className="absolute rounded-md p-1.5 overflow-hidden transition-all duration-200
                               zIndex: 10 + colIdx // ensures overlapping layer logic
                             }}
                           >
-                            <div className="text-[10px] sm:text-xs font-bold leading-tight text-primary-foreground line-clamp-2">
+                            <div className="text-[10px] sm:text-xs font-bold leading-tight text-primary-foreground line-clamp-2 group-hover:line-clamp-none">
                               {evt.name}
                             </div>
                             <div className="text-[9px] sm:text-[10px] text-primary-foreground/90 mt-0.5 flex items-center justify-between">

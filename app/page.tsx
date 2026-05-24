@@ -156,6 +156,8 @@ function Tooltip({
   server,
   x,
   y,
+  forceTx,
+  forceTy,
   containerW,
   containerH,
   isDark,
@@ -163,6 +165,8 @@ function Tooltip({
   server: Server | null
   x: number
   y: number
+  forceTx?: number
+  forceTy?: number
   containerW: number
   containerH: number
   isDark: boolean
@@ -170,11 +174,15 @@ function Tooltip({
   if (!server) return null
   const W = 280,
     H = 180
-  let tx = x + 14,
-    ty = y - 10
-  if (tx + W > containerW) tx = x - W - 14
-  if (ty + H > containerH) ty = y - H
-  ty = Math.max(4, ty)
+  
+  let tx = forceTx !== undefined ? forceTx : x + 14
+  let ty = forceTy !== undefined ? forceTy : y - 10
+  
+  if (forceTx === undefined && forceTy === undefined) {
+    if (tx + W > containerW) tx = x - W - 14
+    if (ty + H > containerH) ty = y - H
+    ty = Math.max(4, ty)
+  }
   
   return (
     <div
@@ -410,8 +418,6 @@ function TsneView({
     H = 600,
     PAD = 50
   const [hovered, setHovered] = useState<Server | null>(null)
-  
-  // NEW: Track multiple pinned servers instead of just one selected
   const [pinned, setPinned] = useState<Server[]>([]) 
   
   const [mouse, setMouse] = useState({ x: 0, y: 0 })
@@ -419,7 +425,6 @@ function TsneView({
 
   const validData = data.filter((s) => s.tsne_x !== undefined && s.tsne_y !== undefined)
   
-  // Find matching servers for search
   const matchingServers = useMemo(() => {
     if (!searchQuery.trim()) return new Set<string>()
     const q = searchQuery.toLowerCase()
@@ -453,6 +458,63 @@ function TsneView({
     const r = svgRef.current!.getBoundingClientRect()
     setMouse({ x: e.clientX - r.left, y: e.clientY - r.top })
   }
+
+  // Calculate positions for pinned tooltips to avoid overlaps
+  const pinnedLayout = useMemo(() => {
+    const positions: { tx: number, ty: number }[] = []
+    const tooltipW = 280
+    const tooltipH = 180
+
+    return pinned.map((s) => {
+      const cx = px(s.tsne_x!)
+      const cy = py(s.tsne_y!)
+
+      // Potential spots: Right, Left, Bottom, Top
+      const candidates = [
+        { tx: cx + 14, ty: cy - 10 },
+        { tx: cx - tooltipW - 14, ty: cy - 10 },
+        { tx: cx - tooltipW / 2, ty: cy + 14 },
+        { tx: cx - tooltipW / 2, ty: cy - tooltipH - 14 },
+      ]
+
+      let bestPos = candidates[0]
+      let foundSpot = false
+
+      for (let cand of candidates) {
+        let { tx, ty } = cand
+        // Clamp to screen bounds
+        if (tx + tooltipW > W) tx = W - tooltipW - 10
+        if (tx < 10) tx = 10
+        if (ty + tooltipH > H) ty = H - tooltipH - 10
+        if (ty < 10) ty = 10
+
+        // Check for collision with already placed pinned tooltips
+        const isOverlapping = positions.some(
+          (p) =>
+            !(tx + tooltipW < p.tx || tx > p.tx + tooltipW || ty + tooltipH < p.ty || ty > p.ty + tooltipH)
+        )
+
+        if (!isOverlapping) {
+          bestPos = { tx, ty }
+          foundSpot = true
+          break
+        }
+      }
+
+      // Fallback if all overlapped, just use clamped first candidate
+      if (!foundSpot) {
+        let { tx, ty } = candidates[0]
+        if (tx + tooltipW > W) tx = W - tooltipW - 10
+        if (tx < 10) tx = 10
+        if (ty + tooltipH > H) ty = H - tooltipH - 10
+        if (ty < 10) ty = 10
+        bestPos = { tx, ty }
+      }
+
+      positions.push(bestPos)
+      return { server: s, ...bestPos }
+    })
+  }, [pinned, minX, maxX, minY, maxY])
 
   return (
     <div className="space-y-4">
@@ -527,7 +589,7 @@ function TsneView({
             stroke={isDark ? "hsl(45 25% 30%)" : "hsl(45 30% 75%)"}
             strokeWidth={1} 
           />
-                    {/* Points */}
+          {/* Points */}
           {validData.map((s, i) => {
             const cx = px(s.tsne_x!),
               cy = py(s.tsne_y!),
@@ -579,13 +641,15 @@ function TsneView({
           })}
         </svg>
         
-        {/* Render all pinned tooltips at their exact dot coordinates */}
-        {pinned.map((s, i) => (
+        {/* Render all pinned tooltips with anti-overlap positioning */}
+        {pinnedLayout.map((layout, i) => (
           <Tooltip 
             key={`pinned-${i}`} 
-            server={s} 
-            x={px(s.tsne_x!)} 
-            y={py(s.tsne_y!)} 
+            server={layout.server} 
+            x={px(layout.server.tsne_x!)} 
+            y={py(layout.server.tsne_y!)}
+            forceTx={layout.tx}
+            forceTy={layout.ty}
             containerW={W} 
             containerH={H} 
             isDark={isDark} 
@@ -597,8 +661,6 @@ function TsneView({
           <Tooltip server={hovered} x={mouse.x} y={mouse.y} containerW={W} containerH={H} isDark={isDark} />
         )}
       </div>
-      
-
       
       {/* Legend */}
       <div className="flex gap-4 flex-wrap items-center text-xs text-muted-foreground">
@@ -623,6 +685,7 @@ function TsneView({
     </div>
   )
 }
+
 
 function QuadrantView({ data, isDark }: { data: Server[]; isDark: boolean }) {
   const allTags = useMemo(() => [...new Set(data.flatMap((s) => s.tags || []))].sort(), [data])
@@ -1012,19 +1075,19 @@ function ListView({
               step={0.5}
               value={scoreRange[0]}
               onChange={(e) => setScoreRange([Math.min(+e.target.value, scoreRange[1]), scoreRange[1]])}
-              className="absolute w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
+              className="absolute pointer-events-none w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
               style={{ zIndex: scoreRange[0] > scoreRange[1] - 1 ? 5 : 3 }}
-            />
-            <input
+              />
+              <input
               type="range"
               min={0}
               max={10}
               step={0.5}
               value={scoreRange[1]}
               onChange={(e) => setScoreRange([scoreRange[0], Math.max(+e.target.value, scoreRange[0])])}
-              className="absolute w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
+              className="absolute pointer-events-none w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
               style={{ zIndex: 4 }}
-            />
+            />          
           </div>
           <span className="text-xs text-muted-foreground">10</span>
         </div>
@@ -1549,12 +1612,18 @@ useEffect(() => {
       
       <main className="max-w-[1000px] mx-auto px-4 sm:px-6 py-8">
         {/* Stats bar */}
-        <div className="flex items-center gap-4 mb-6 text-sm">
+        <div className="flex flex-wrap items-center gap-4 mb-6 text-sm">
           <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-xl border border-border bevel-border">
             <span className="text-muted-foreground">Total:</span>
             <span className="font-bold text-foreground">{data.length}</span>
             <span className="text-muted-foreground">servers</span>
           </div>
+          
+          <div className="text-muted-foreground flex items-center gap-1.5">
+            <span>More info <a href="https://www.lesswrong.com/posts/9eehTtLsTBZR9Bd7Q/on-open-science-research-labs-on-discord-and-getting-more" target="_blank" rel="noreferrer" className="text-primary hover:underline font-medium">here</a>,</span>
+            <span>audio ver <a href="https://www.youtube.com/watch?v=njgXqYTvIzI" target="_blank" rel="noreferrer" className="text-primary hover:underline font-medium">here</a>.</span>
+          </div>
+
           {(view === "tsne" || view === "quad") && (
             <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-xl border border-border bevel-border">
               <span className="text-muted-foreground">Showing:</span>
@@ -1562,7 +1631,7 @@ useEffect(() => {
             </div>
           )}
         </div>
-
+        
         {/* View tabs */}
         <div className="flex gap-2 mb-6">
           {tabs.map(tab => (
@@ -1615,7 +1684,7 @@ useEffect(() => {
                     step={0.5}
                     value={scoreRange[0]}
                     onChange={(e) => setScoreRange([Math.min(+e.target.value, scoreRange[1]), scoreRange[1]])}
-                    className="absolute w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
+                    className="absolute pointer-events-none w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
                     style={{ zIndex: scoreRange[0] > scoreRange[1] - 1 ? 5 : 3 }}
                   />
                   <input
@@ -1625,14 +1694,14 @@ useEffect(() => {
                     step={0.5}
                     value={scoreRange[1]}
                     onChange={(e) => setScoreRange([scoreRange[0], Math.max(+e.target.value, scoreRange[0])])}
-                    className="absolute w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
+                    className="absolute pointer-events-none w-full appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-card [&::-webkit-slider-thumb]:shadow-lg"
                     style={{ zIndex: 4 }}
                   />
                 </div>
                 <span className="text-xs text-muted-foreground">10</span>
               </div>
+            </div>          
             </div>
-          </div>
         )}
 
         {/* View content */}
