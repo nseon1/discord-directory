@@ -1335,13 +1335,14 @@ function Header() {
     return () => subscription.unsubscribe()
   }, [])
 
-  const handleLogin = async () => {
-    // You can change 'discord' to 'google' if you prefer!
-    await supabase.auth.signInWithOAuth({
-      provider: 'discord',
-    })
-  }
-
+const handleLogin = async () => {
+  await supabase.auth.signInWithOAuth({
+    provider: 'discord',
+    options: {
+      redirectTo: `${window.location.origin}`,
+    },
+  })
+}
   const handleLogout = async () => {
     await supabase.auth.signOut()
   }
