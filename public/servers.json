@@ -270,7 +270,7 @@
     "notes": "interesting group though can't fully say how much progress they've been making"
   },
   {
-    "name": "Ronin institute",
+    "name": "Ronin institute 2.0 (RIIS 2.0)",
     "score": 7.2,
     "short desc": "members choose projects,mentorship",
     "tags": [
@@ -284,7 +284,7 @@
       "science"
     ],
     "link": "https://ronininstitute.org/",
-    "notes": "various researchers and applied reading groups/ showcases etc, you get to vote on stuff,a edu email!,elections!"
+    "notes": "various researchers and applied reading groups/ showcases etc, you get to vote on stuff,a .org email!,elections!"
   },
   {
     "name": "Discrete diffusion reading group",
@@ -454,16 +454,17 @@
   {
     "name": "independent scientists",
     "score": 7.1,
-    "short desc": "general research",
+    "short desc": "general research, IRL meetings",
     "tags": [
       "research",
-      "semi active",
+      "active",
       "opensci lab",
       "community projects",
+      "irl based",
       "science"
     ],
     "link": "https://casualphysicsenjoyer.com/Essays+in+progress/About",
-    "notes": "server not too active but they host IRL events."
+    "notes": "server not too active but they host  a lot of IRL events."
   },
   {
     "name": "Machine Learning street talk",
@@ -495,6 +496,20 @@
     "notes": "you can chitchat with people about their research here, though usually more accountability and pomodoro groups"
   },
   {
+    "name": "Colab",
+    "score": 7.1,
+    "short desc": "pretraining stuff,opensci",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "company projects",
+      "ai"
+    ],
+    "link": "https://x.com/LChoshen",
+    "notes": "Closer to a slack grad school chat but it's on discord and semi public"
+  },
+  {
     "name": "fan studies network",
     "score": 7.1,
     "short desc": "research about fan communities",
@@ -521,6 +536,20 @@
     ],
     "link": "https://www.ccsn.site/",
     "notes": "not too active but incredibly useful if you're doing humanities research"
+  },
+  {
+    "name": "National Coalition of Independent Scholars",
+    "score": 7.0,
+    "short desc": "humanities related researchers , professional network of  scientists",
+    "tags": [
+      "research",
+      "active",
+      "paid",
+      "opensci lab",
+      "science"
+    ],
+    "link": "https://ncis.org/apply/",
+    "notes": "ages are decently older compared to most other groups"
   },
   {
     "name": "RWKV language Model",
@@ -1380,7 +1409,7 @@
       "active",
       "study group",
       "community projects",
-      "active",
+      "active creator",
       "ai"
     ],
     "link": "https://rdi.berkeley.edu/agentic-ai/f25",
@@ -2465,6 +2494,19 @@
     "notes": "interesting idea ig? i might be misunderstanding what they do though"
   },
   {
+    "name": "DiyBio/scihouse",
+    "score": 6.1,
+    "short desc": "various biotech activites",
+    "tags": [
+      "research",
+      "semi active",
+      "grad+industry chat",
+      "science"
+    ],
+    "link": "https://www.reddit.com/r/DIYbio/about/",
+    "notes": "not too active,good if you need Biotech help"
+  },
+  {
     "name": "Farama foundation",
     "score": 6.0,
     "short desc": "reinforcement learning stuff",
@@ -3012,6 +3054,18 @@
     ],
     "link": "https://discord.gg/6qYTXvfKzW",
     "notes": "does the AI village stuff- project of using openai and claude to do stuff on the computer"
+  },
+  {
+    "name": "overworld",
+    "score": 5.6,
+    "short desc": "for the image generation with movement tool,overworld",
+    "tags": [
+      "general",
+      "semi active",
+      "ai"
+    ],
+    "link": "https://discord.com/invite/overworld",
+    "notes": "cool server if you need help setting it up"
   },
   {
     "name": "Alignment lab AI",
@@ -3920,6 +3974,18 @@
     ],
     "link": "https://data.mlr.press/",
     "notes": "this is a journal."
+  },
+  {
+    "name": "tencent hunyuan",
+    "score": 3.6,
+    "short desc": "chat about hunyuan models",
+    "tags": [
+      "general",
+      "mostly inactive",
+      "ai"
+    ],
+    "link": "https://discord.gg/8NNxJNbpwK",
+    "notes": "at least you can chat with the researchers here"
   },
   {
     "name": "general reasoning",
