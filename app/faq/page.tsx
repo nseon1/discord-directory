@@ -38,7 +38,7 @@ const faqs = [
     question: "How can I submit a server? What about changing a score?",
     answer: (
       <>
-        To submit a new server for consideration, message me at <strong>seonresearch</strong>,{" "}
+        To submit a new server for consideration, message me at discord <strong>seonresearch</strong>,{" "}
         <a 
           href="https://x.com/SeonGunness" 
           target="_blank" 
