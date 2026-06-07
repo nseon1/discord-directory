@@ -287,6 +287,20 @@
     "notes": "various researchers and applied reading groups/ showcases etc, you get to vote on stuff,a .org email!,elections!"
   },
   {
+    "name": "Tokenization research server",
+    "score": 7.2,
+    "short desc": "research on tokenizations methods and most things tokens",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "jobs board",
+      "ai"
+    ],
+    "link": "https://www.tokenize.rs/",
+    "notes": "incredibly useful if you are doing or want to do, any type of tokenization research"
+  },
+  {
     "name": "Discrete diffusion reading group",
     "score": 7.2,
     "short desc": "discrete diffusion papers",
@@ -510,6 +524,21 @@
     "notes": "Closer to a slack grad school chat but it's on discord and semi public"
   },
   {
+    "name": "e/xperiments",
+    "score": 7.1,
+    "short desc": "multimodal,LLM",
+    "tags": [
+      "research",
+      "active",
+      "grad+industry chat",
+      "community projects",
+      "office hours/chat/working group",
+      "ai"
+    ],
+    "link": "https://tokenbender.com/",
+    "notes": "pretty strong research server"
+  },
+  {
     "name": "fan studies network",
     "score": 7.1,
     "short desc": "research about fan communities",
@@ -626,21 +655,7 @@
     "link": "https://alignment.dev/",
     "notes": "site is good, server is good too."
   },
-  {
-    "name": "e/xperiments",
-    "score": 7.0,
-    "short desc": "multimodal,LLM",
-    "tags": [
-      "research",
-      "active",
-      "grad+industry chat",
-      "community projects",
-      "office hours/chat/working group",
-      "ai"
-    ],
-    "link": "https://tokenbender.com/",
-    "notes": "pretty strong research server"
-  },
+
   {
     "name": "degentech",
     "score": 7.0,
@@ -833,20 +848,7 @@
     "link": "https://www.aisi.dev/",
     "notes": "some lesser known links and opportunities; not too active"
   },
-  {
-    "name": "Tokenization research server",
-    "score": 7.0,
-    "short desc": "tokens",
-    "tags": [
-      "research",
-      "semi active",
-      "opensci lab",
-      "jobs board",
-      "ai"
-    ],
-    "link": "#",
-    "notes": "https://twitter.com/good_in_theory"
-  },
+
   {
     "name": "d/arc",
     "score": 7.0,
