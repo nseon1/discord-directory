@@ -1624,6 +1624,7 @@ useEffect(() => {
             <span>More info <a href="https://www.lesswrong.com/posts/9eehTtLsTBZR9Bd7Q/on-open-science-research-labs-on-discord-and-getting-more" target="_blank" rel="noreferrer" className="text-primary hover:underline font-medium">here</a>,</span>
             <span>audio ver <a href="https://www.youtube.com/watch?v=njgXqYTvIzI" target="_blank" rel="noreferrer" className="text-primary hover:underline font-medium">here</a>.</span>
             <span>New! if you have research projects,looking for projects,or have ideas to turn into research, <a href="https://docs.google.com/spreadsheets/d/1SNbGz7wbbfjU-0WThtR9uNcqJujOYFRU9_t0tSXhq2o/edit?gid=1688357299#gid=1688357299" target="blank" rel="noreferrer" className="text-primary hover:underline font-medium">add them here</a>it will be turned into new subpages</span>
+            <span><a href="https://ko-fi.com/seonresearch" target="blank" rel="noreferrer" className="text-primary hover:underline font-medium">ko-fi</a></span>
 
           </div>
 

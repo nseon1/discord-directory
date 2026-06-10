@@ -252,7 +252,7 @@
   },
   {
     "name": "orthogonal research",
-    "score": 7.2,
+    "score": 7.3,
     "short desc": "various; some non AI,neurosimulation,cybernetics,open data,etc",
     "tags": [
       "research",
@@ -285,20 +285,6 @@
     ],
     "link": "https://ronininstitute.org/",
     "notes": "various researchers and applied reading groups/ showcases etc, you get to vote on stuff,a .org email!,elections!"
-  },
-  {
-    "name": "Tokenization research server",
-    "score": 7.2,
-    "short desc": "research on tokenizations methods and most things tokens",
-    "tags": [
-      "research",
-      "active",
-      "opensci lab",
-      "jobs board",
-      "ai"
-    ],
-    "link": "https://www.tokenize.rs/",
-    "notes": "incredibly useful if you are doing or want to do, any type of tokenization research"
   },
   {
     "name": "Discrete diffusion reading group",
@@ -342,6 +328,20 @@
     ],
     "link": "https://www.acceptedsociety.com/",
     "notes": "humanities focused, seems expert focused/research"
+  },
+  {
+    "name": "Tokenization research server",
+    "score": 7.2,
+    "short desc": "research on tokenizations methods and most things tokens",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "jobs board",
+      "ai"
+    ],
+    "link": "https://www.tokenize.rs/",
+    "notes": "incredibly useful if you are doing or want to do, any type of tokenization research"
   },
   {
     "name": "open neuromorphic",
@@ -524,6 +524,20 @@
     "notes": "Closer to a slack grad school chat but it's on discord and semi public"
   },
   {
+    "name": "fan studies network",
+    "score": 7.1,
+    "short desc": "research about fan communities",
+    "tags": [
+      "research",
+      "active",
+      "grad+industry chat",
+      "opportunities board",
+      "science"
+    ],
+    "link": "#",
+    "notes": "not too active but incredibly useful if you're doing humanities research"
+  },
+  {
     "name": "deus experiments",
     "score": 7.1,
     "short desc": "multimodal,LLM",
@@ -539,20 +553,6 @@
     "notes": "pretty strong research server"
   },
   {
-    "name": "fan studies network",
-    "score": 7.1,
-    "short desc": "research about fan communities",
-    "tags": [
-      "research",
-      "active",
-      "grad+industry chat",
-      "opportunities board",
-      "science"
-    ],
-    "link": "#",
-    "notes": "not too active but incredibly useful if you're doing humanities research"
-  },
-  {
     "name": "content creators scholars network",
     "score": 7.1,
     "short desc": "Scholarly stuff about content creators",
@@ -565,6 +565,24 @@
     ],
     "link": "https://www.ccsn.site/",
     "notes": "not too active but incredibly useful if you're doing humanities research"
+  },
+  {
+    "name": "JOPRO",
+    "score": 7.1,
+    "short desc": "Various research and field building projects; anyone can apply, and discord is public",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "company projects",
+      "research paper reading group",
+      "other reading group",
+      "opportunities board",
+      "science",
+      "ai"
+    ],
+    "link": "https://jopro.org/opportunities/",
+    "notes": "various AI but mostly data and openscience related projects"
   },
   {
     "name": "National Coalition of Independent Scholars",
@@ -655,7 +673,6 @@
     "link": "https://alignment.dev/",
     "notes": "site is good, server is good too."
   },
-
   {
     "name": "degentech",
     "score": 7.0,
@@ -848,7 +865,6 @@
     "link": "https://www.aisi.dev/",
     "notes": "some lesser known links and opportunities; not too active"
   },
-
   {
     "name": "d/arc",
     "score": 7.0,
