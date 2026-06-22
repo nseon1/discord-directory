@@ -568,7 +568,7 @@
   },
   {
     "name": "JOPRO",
-    "score": 7.1,
+    "score": 7.0,
     "short desc": "Various research and field building projects; anyone can apply, and discord is public",
     "tags": [
       "research",
@@ -1496,6 +1496,32 @@
     ],
     "link": "https://huntr.com/bounties",
     "notes": "Use the site. Site is incredibly useful."
+  },
+  {
+    "name": "Carnegie mellon university AI safety",
+    "score": 6.7,
+    "short desc": "ai safety group part of a university",
+    "tags": [
+      "ai safety",
+      "semi active",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://cmuaisafety.com/contact.html",
+    "notes": "more resources and opportunities than most other uni ai safety"
+  },
+  {
+    "name": "Ml resources",
+    "score": 6.7,
+    "short desc": "various AI research links here",
+    "tags": [
+      "education",
+      "semi active",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://discord.gg/MnDxH4x4Fw",
+    "notes": "pretty useful links for newcomers,some education ones which seem okay enough"
   },
   {
     "name": "BabyLM",
