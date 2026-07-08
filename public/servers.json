@@ -524,6 +524,20 @@
     "notes": "Closer to a slack grad school chat but it's on discord and semi public"
   },
   {
+    "name": "Learning mechanics",
+    "score": 7.1,
+    "short desc": "math/mechanistic understanding of how models learn",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "community projects",
+      "ai"
+    ],
+    "link": "https://x.com/learning_mech/status/2050540158944989680",
+    "notes": "New, interesting, A group trying to mathematically formalize how models learn (yes we don't fully know why these things work.)"
+  },
+  {
     "name": "fan studies network",
     "score": 7.1,
     "short desc": "research about fan communities",
@@ -938,6 +952,20 @@
     "notes": "synthetic biology"
   },
   {
+    "name": "FORRT",
+    "score": 7.0,
+    "short desc": "social science adjacent",
+    "tags": [
+      "research",
+      "semi active",
+      "opensci lab",
+      "community projects",
+      "science"
+    ],
+    "link": "https://forrt.org/about/get-involved/",
+    "notes": "seems to deal with various social science and humanities topics, ran by grads"
+  },
+  {
     "name": "open memetics institute",
     "score": 7.0,
     "short desc": "culture studies on memes etc",
@@ -965,6 +993,21 @@
     ],
     "link": "https://allenai.org/",
     "notes": "another solid group for ai models"
+  },
+  {
+    "name": "interconnects",
+    "score": 6.9,
+    "short desc": "SOTA Models and techniques used to train them",
+    "tags": [
+      "general",
+      "active",
+      "grad+industry chat",
+      "paid",
+      "semi active creator",
+      "ai"
+    ],
+    "link": "https://www.interconnects.ai/p/discord",
+    "notes": "Quite a number of people are here whose in industry of varying skill levels, decently good"
   },
   {
     "name": "huggingface discord",
@@ -1179,20 +1222,6 @@
     ],
     "link": "https://opensuperintelligencelab.com/",
     "notes": "new,another group attempting open source AGI,this one has a lot more focus than the rest"
-  },
-  {
-    "name": "FORRT",
-    "score": 6.8,
-    "short desc": "social science adjacent",
-    "tags": [
-      "research",
-      "semi active",
-      "opensci lab",
-      "community projects",
-      "science"
-    ],
-    "link": "https://forrt.org/about/get-involved/",
-    "notes": "seems to deal with various social science and humanities topics, ran by grads"
   },
   {
     "name": "inference ai",

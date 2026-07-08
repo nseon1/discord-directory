@@ -215,5 +215,19 @@
         "ISOend":"2024-01-05T17:00:00Z",
         "link":"https:\/\/deepchem.io\/",
         "type":"weekly"
+    },
+    {
+        "name":"FORRT meetings tuesday",
+        "ISOstart":"2024-01-02T09:00:00Z",
+        "ISOend":"2024-01-02T10:00:00Z",
+        "link":"https:\/\/meet.google.com\/sfn-mojf-usb",
+        "type":"weekly"
+    },
+    {
+        "name":"FORRT meetings thursday",
+        "ISOstart":"2024-01-04T16:00:00Z",
+        "ISOend":"2024-01-04T17:00:00Z",
+        "link":"https:\/\/meet.google.com\/sfn-mojf-usb",
+        "type":"weekly"
     }
 ]
