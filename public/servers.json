@@ -38,7 +38,7 @@
   {
     "name": "medarc",
     "score": 7.8,
-    "short desc": "autonomous ai,among others",
+    "short desc": "neuroai, AI for medical brain data",
     "tags": [
       "research",
       "very active",
@@ -1434,6 +1434,19 @@
     "notes": "pretty solid Computer vision server; also has a youtube channel"
   },
   {
+    "name": "AI and scientific discovery",
+    "score": 6.7,
+    "short desc": "seems to do talks and stuff on various fields",
+    "tags": [
+      "research",
+      "dead",
+      "research paper reading group",
+      "ai"
+    ],
+    "link": "https://ai-scientific-discovery.github.io/",
+    "notes": "talks currently inactive, might start back again soon"
+  },
+  {
     "name": "Ai safety founders",
     "score": 6.7,
     "short desc": "entrepreneurial side,general community building etc",
@@ -1679,6 +1692,19 @@
     ],
     "link": "https://discord.gg/Y5CbGVDtXk",
     "notes": "standard red teaming group"
+  },
+  {
+    "name": "AI alignment at illinois university",
+    "score": 6.6,
+    "short desc": "AI safety university club, does some stuff",
+    "tags": [
+      "ai safety",
+      "semi active",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://aialignmentillinois.org/",
+    "notes": "Does some stuff, better if you're in the university."
   },
   {
     "name": "National Taiwan University AI safety",
@@ -2391,6 +2417,21 @@
     ],
     "link": "https://x.com/banodoco?lang=en",
     "notes": "good if youre newer to ai and want to do some art"
+  },
+  {
+    "name": "AER labs",
+    "score": 6.1,
+    "short desc": "A group doing open work on AI research",
+    "tags": [
+      "research",
+      "mostly inactive",
+      "opensci lab",
+      "community projects",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://aerlabs.tech/",
+    "notes": "I can't seem to find what they are up to specifically, might be too new to tell?"
   },
   {
     "name": "camel ai",
@@ -3482,6 +3523,18 @@
     ],
     "link": "https://discord.gg/w9yAympgDV",
     "notes": "Pretty dead; owner does stuff sometimes"
+  },
+  {
+    "name": "university of Michigan AI safety initiative",
+    "score": 5.1,
+    "short desc": "AI safety club of a university",
+    "tags": [
+      "ai safety",
+      "mostly inactive",
+      "ai"
+    ],
+    "link": "https://www.maisi.club/",
+    "notes": "A bit better if you're in the university"
   },
   {
     "name": "aixplain agent lab",
