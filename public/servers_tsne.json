@@ -16,8 +16,8 @@
     ],
     "link": "https://cohere.com/research/open-science/application",
     "notes": "pretty good! lots of stuff to do for various skill levels,pretty active as well",
-    "tsne_x": 0.4666,
-    "tsne_y": 0.0335
+    "tsne_x": 0.245,
+    "tsne_y": 0.4071
   },
   {
     "name": "EleutherAI",
@@ -36,8 +36,8 @@
     ],
     "link": "https://www.eleuther.ai/",
     "notes": "Lots of resources; community projects to do and reading groups.",
-    "tsne_x": 0.5446,
-    "tsne_y": 0.0649
+    "tsne_x": 0.3031,
+    "tsne_y": 0.5104
   },
   {
     "name": "medarc",
@@ -57,8 +57,8 @@
     ],
     "link": "https://www.medarc.ai/",
     "notes": "Great server that does medical AI research with problems to help!",
-    "tsne_x": 0.4035,
-    "tsne_y": 0.5418
+    "tsne_x": 0.0277,
+    "tsne_y": 0.0751
   },
   {
     "name": "manifold research group",
@@ -78,8 +78,8 @@
     ],
     "link": "https://www.manifoldrg.com/",
     "notes": "another pretty standard research server; this one focuses on various things",
-    "tsne_x": 0.2965,
-    "tsne_y": 0.0055
+    "tsne_x": 0.1773,
+    "tsne_y": 0.2076
   },
   {
     "name": "open sci collective",
@@ -96,8 +96,8 @@
     ],
     "link": "https://huggingface.co/open-sci/models",
     "notes": "pretty good.",
-    "tsne_x": 0.5119,
-    "tsne_y": 0.0302
+    "tsne_x": 0.2951,
+    "tsne_y": 0.4361
   },
   {
     "name": "Alignment Jams",
@@ -113,8 +113,8 @@
     ],
     "link": "https://alignmentjam.com/",
     "notes": "the only ai alignment hackathon so that bumps the score up a lot. more follow-ups would be nice though",
-    "tsne_x": 0.1565,
-    "tsne_y": 0.4747
+    "tsne_x": -0.9146,
+    "tsne_y": -0.3169
   },
   {
     "name": "Wayfarerlabs",
@@ -129,8 +129,8 @@
     ],
     "link": "https://wayfarerlabs.ai/",
     "notes": "another pretty standard research server; this one focuses on various things",
-    "tsne_x": 0.2887,
-    "tsne_y": 0.062
+    "tsne_x": 0.2025,
+    "tsne_y": 0.2146
   },
   {
     "name": "Torchbearer",
@@ -148,8 +148,8 @@
     ],
     "link": "https://www.torchbearer.community/",
     "notes": "More intense,for AI safety,policy, some EA, things in that general area",
-    "tsne_x": 0.3569,
-    "tsne_y": 0.0572
+    "tsne_x": 0.2363,
+    "tsne_y": 0.2835
   },
   {
     "name": "Gpu mode",
@@ -167,8 +167,8 @@
     ],
     "link": "https://github.com/gpu-mode",
     "notes": "pretty good education server esp for cuda stuff (goes hand in hand with ai development)",
-    "tsne_x": -0.4118,
-    "tsne_y": 0.3703
+    "tsne_x": -0.4643,
+    "tsne_y": 0.4331
   },
   {
     "name": "Developmental Interpetability (slt and ai safety)",
@@ -186,8 +186,8 @@
     ],
     "link": "https://devinterp.com/",
     "notes": "Decently active- there is discussion about other non SLT interp things as well.",
-    "tsne_x": 0.3727,
-    "tsne_y": 0.2208
+    "tsne_x": 0.9153,
+    "tsne_y": -0.0999
   },
   {
     "name": "ai-plans",
@@ -203,8 +203,8 @@
     ],
     "link": "https://ai-plans.com/",
     "notes": "server is active and owners do stuff",
-    "tsne_x": 0.1984,
-    "tsne_y": 0.0452
+    "tsne_x": 0.1596,
+    "tsne_y": 0.0964
   },
   {
     "name": "Marin",
@@ -220,8 +220,8 @@
     ],
     "link": "https://marin.community/blog/2025/05/19/announcement/",
     "notes": "didnt actually get in",
-    "tsne_x": 0.1288,
-    "tsne_y": -0.4607
+    "tsne_x": 0.2729,
+    "tsne_y": 0.1373
   },
   {
     "name": "Mechanistic interpretability discord",
@@ -238,8 +238,8 @@
     ],
     "link": "https://www.lesswrong.com/posts/ePGwx2uyjnvT8vWEL/mechanistic-interpretability-reading-group",
     "notes": "Useful if you want to go into or try mechanistic interpretability/learn about it",
-    "tsne_x": 0.3707,
-    "tsne_y": -0.1765
+    "tsne_x": 0.4426,
+    "tsne_y": 0.2484
   },
   {
     "name": "Active Inference institute",
@@ -257,8 +257,8 @@
     ],
     "link": "https://www.activeinference.org/",
     "notes": "does active inference, pretty active, different from most regular ai servers",
-    "tsne_x": -0.2856,
-    "tsne_y": 0.4155
+    "tsne_x": -0.0057,
+    "tsne_y": -0.0842
   },
   {
     "name": "latent space (nee/dev/invest)",
@@ -277,8 +277,8 @@
     ],
     "link": "https://www.latent.space/",
     "notes": "Pretty good server; explanations for the papers are nice",
-    "tsne_x": -0.0748,
-    "tsne_y": -0.3348
+    "tsne_x": -0.0624,
+    "tsne_y": 0.3973
   },
   {
     "name": "orthogonal research",
@@ -298,8 +298,8 @@
     ],
     "link": "https://orthogonal-research.weebly.com/",
     "notes": "interesting group though can't fully say how much progress they've been making",
-    "tsne_x": 0.3316,
-    "tsne_y": 0.0011
+    "tsne_x": 0.1642,
+    "tsne_y": 0.2456
   },
   {
     "name": "Ronin institute 2.0 (RIIS 2.0)",
@@ -317,8 +317,8 @@
     ],
     "link": "https://ronininstitute.org/",
     "notes": "various researchers and applied reading groups/ showcases etc, you get to vote on stuff,a .org email!,elections!",
-    "tsne_x": 0.5692,
-    "tsne_y": 0.0991
+    "tsne_x": 0.2913,
+    "tsne_y": 0.5615
   },
   {
     "name": "Discrete diffusion reading group",
@@ -332,8 +332,8 @@
     ],
     "link": "https://discord.com/invite/QQuVU9auyw",
     "notes": "fine reading group if you're into discrete diffusion",
-    "tsne_x": 0.3301,
-    "tsne_y": -0.3754
+    "tsne_x": 0.618,
+    "tsne_y": 0.0538
   },
   {
     "name": "formal language and neural network",
@@ -348,8 +348,8 @@
     ],
     "link": "https://flannseminars.github.io/",
     "notes": "pretty advanced and hosts talks sometimes",
-    "tsne_x": 0.0062,
-    "tsne_y": -0.249
+    "tsne_x": -0.1824,
+    "tsne_y": 0.134
   },
   {
     "name": "accepted society",
@@ -366,8 +366,8 @@
     ],
     "link": "https://www.acceptedsociety.com/",
     "notes": "humanities focused, seems expert focused/research",
-    "tsne_x": 0.7737,
-    "tsne_y": -0.1576
+    "tsne_x": 0.3685,
+    "tsne_y": 0.7656
   },
   {
     "name": "Tokenization research server",
@@ -382,8 +382,8 @@
     ],
     "link": "https://www.tokenize.rs/",
     "notes": "incredibly useful if you are doing or want to do, any type of tokenization research",
-    "tsne_x": 0.3995,
-    "tsne_y": 0.0217
+    "tsne_x": 0.1811,
+    "tsne_y": 0.3151
   },
   {
     "name": "open neuromorphic",
@@ -400,8 +400,8 @@
     ],
     "link": "https://open-neuromorphic.org/",
     "notes": "A lot of research on brain inspired AI.",
-    "tsne_x": 0.3807,
-    "tsne_y": 0.6054
+    "tsne_x": -0.1254,
+    "tsne_y": -0.3536
   },
   {
     "name": "unitary foundation",
@@ -418,8 +418,8 @@
     ],
     "link": "https://unitary.foundation/",
     "notes": "quantum group doing stuff",
-    "tsne_x": 0.7867,
-    "tsne_y": 0.2482
+    "tsne_x": 0.7878,
+    "tsne_y": 0.6877
   },
   {
     "name": "john's ai group",
@@ -436,8 +436,8 @@
     ],
     "link": "https://www.youtube.com/channel/UCgRNCT8mrzKYebyG3Ao9DJA",
     "notes": "John's pretty active. Stuff to do with taskgen rn",
-    "tsne_x": 0.0872,
-    "tsne_y": -0.1503
+    "tsne_x": 0.2737,
+    "tsne_y": -0.0696
   },
   {
     "name": "openADMET challenges",
@@ -453,8 +453,8 @@
     ],
     "link": "https://openadmet.org/community/events/blind-challenges/",
     "notes": "lots of stuff related to the molecular sciences and the like going on here.",
-    "tsne_x": 0.6215,
-    "tsne_y": 0.019
+    "tsne_x": 0.3913,
+    "tsne_y": 0.4233
   },
   {
     "name": "aspirational neuroscience journal club",
@@ -468,8 +468,8 @@
     ],
     "link": "https://aspirationalneuroscience.org/nlm-journal-club/",
     "notes": "neuroscience of memory and learning",
-    "tsne_x": 0.6765,
-    "tsne_y": 0.4579
+    "tsne_x": 0.72,
+    "tsne_y": 0.1759
   },
   {
     "name": "Berkely Ai safey initative",
@@ -486,8 +486,8 @@
     ],
     "link": "https://berkeleyaisafety.com/",
     "notes": "nice server,its on slack.",
-    "tsne_x": 0.2317,
-    "tsne_y": 0.0718
+    "tsne_x": 0.1777,
+    "tsne_y": 0.142
   },
   {
     "name": "EvalEval",
@@ -503,8 +503,8 @@
     ],
     "link": "https://evalevalai.com/",
     "notes": "need to do a survey thingy to join- pretty good evaluation projects",
-    "tsne_x": 0.4638,
-    "tsne_y": 0.0809
+    "tsne_x": 0.3112,
+    "tsne_y": 0.3753
   },
   {
     "name": "Nous Research",
@@ -520,8 +520,8 @@
     ],
     "link": "https://nousresearch.com/",
     "notes": "standard solid research server and group; semi active public projects to do",
-    "tsne_x": -0.0367,
-    "tsne_y": -0.2958
+    "tsne_x": 0.0024,
+    "tsne_y": 0.3388
   },
   {
     "name": "independent scientists",
@@ -537,8 +537,8 @@
     ],
     "link": "https://casualphysicsenjoyer.com/Essays+in+progress/About",
     "notes": "server not too active but they host  a lot of IRL events.",
-    "tsne_x": 0.745,
-    "tsne_y": 0.0274
+    "tsne_x": 0.4936,
+    "tsne_y": 0.6134
   },
   {
     "name": "Machine Learning street talk",
@@ -554,8 +554,8 @@
     ],
     "link": "https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ",
     "notes": "active, more philosphy based  but still pgood",
-    "tsne_x": 0.0038,
-    "tsne_y": -0.2062
+    "tsne_x": -0.2049,
+    "tsne_y": 0.1034
   },
   {
     "name": "postgraduate research hub",
@@ -570,8 +570,8 @@
     ],
     "link": "https://www.pgresearchhub.com/",
     "notes": "you can chitchat with people about their research here, though usually more accountability and pomodoro groups",
-    "tsne_x": 0.8084,
-    "tsne_y": -0.1569
+    "tsne_x": 0.3996,
+    "tsne_y": 0.7942
   },
   {
     "name": "Colab",
@@ -586,8 +586,8 @@
     ],
     "link": "https://x.com/LChoshen",
     "notes": "Closer to a slack grad school chat but it's on discord and semi public",
-    "tsne_x": 0.4901,
-    "tsne_y": -0.0085
+    "tsne_x": 0.2349,
+    "tsne_y": 0.4435
   },
   {
     "name": "Learning mechanics",
@@ -602,8 +602,8 @@
     ],
     "link": "https://x.com/learning_mech/status/2050540158944989680",
     "notes": "New, interesting, A group trying to mathematically formalize how models learn (yes we don't fully know why these things work.)",
-    "tsne_x": 0.1051,
-    "tsne_y": 0.6885
+    "tsne_x": -0.0945,
+    "tsne_y": -0.1391
   },
   {
     "name": "fan studies network",
@@ -618,8 +618,8 @@
     ],
     "link": "#",
     "notes": "not too active but incredibly useful if you're doing humanities research",
-    "tsne_x": 0.7428,
-    "tsne_y": -0.2134
+    "tsne_x": 0.311,
+    "tsne_y": 0.7883
   },
   {
     "name": "deus experiments",
@@ -635,8 +635,8 @@
     ],
     "link": "https://tokenbender.com/",
     "notes": "pretty strong research server",
-    "tsne_x": -0.0386,
-    "tsne_y": -0.2925
+    "tsne_x": -0.0205,
+    "tsne_y": 0.3416
   },
   {
     "name": "content creators scholars network",
@@ -651,8 +651,28 @@
     ],
     "link": "https://www.ccsn.site/",
     "notes": "not too active but incredibly useful if you're doing humanities research",
-    "tsne_x": 0.742,
-    "tsne_y": -0.2068
+    "tsne_x": 0.3148,
+    "tsne_y": 0.782
+  },
+  {
+    "name": "Emerging researchers in artificial life",
+    "score": 7.0,
+    "short desc": "Artificial life; more computational biology based",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "research paper reading group",
+      "other reading group",
+      "opportunities board",
+      "jobs board",
+      "science",
+      "ai"
+    ],
+    "link": "https://alife.org/emerging-researchers-in-alife/",
+    "notes": "focuses more on computational biological \"small\" life than AI welfare/AGI etc",
+    "tsne_x": 0.0457,
+    "tsne_y": 0.1586
   },
   {
     "name": "JOPRO",
@@ -671,8 +691,8 @@
     ],
     "link": "https://jopro.org/opportunities/",
     "notes": "various AI but mostly data and openscience related projects",
-    "tsne_x": 0.4386,
-    "tsne_y": -0.0208
+    "tsne_x": 0.1757,
+    "tsne_y": 0.3852
   },
   {
     "name": "National Coalition of Independent Scholars",
@@ -687,8 +707,8 @@
     ],
     "link": "https://ncis.org/apply/",
     "notes": "ages are decently older compared to most other groups",
-    "tsne_x": 0.6808,
-    "tsne_y": -0.073
+    "tsne_x": 0.3576,
+    "tsne_y": 0.6632
   },
   {
     "name": "RWKV language Model",
@@ -703,8 +723,8 @@
     ],
     "link": "https://wiki.rwkv.com/",
     "notes": "Good if you want  to help with RWKV, decently active",
-    "tsne_x": 0.0822,
-    "tsne_y": 0.298
+    "tsne_x": 0.3665,
+    "tsne_y": -0.315
   },
   {
     "name": "unsloth ai",
@@ -719,8 +739,8 @@
     ],
     "link": "https://unsloth.ai/",
     "notes": "great server for getting into finetuneing; similar to gpu mode",
-    "tsne_x": -0.406,
-    "tsne_y": 0.3549
+    "tsne_x": -0.4665,
+    "tsne_y": 0.4225
   },
   {
     "name": "camenduru server",
@@ -735,8 +755,8 @@
     ],
     "link": "tost.ai",
     "notes": "camenduru does a lot; server is good if you wanna help him",
-    "tsne_x": -0.0883,
-    "tsne_y": 0.2251
+    "tsne_x": 0.0996,
+    "tsne_y": -0.3666
   },
   {
     "name": "Yannic kilcher",
@@ -754,8 +774,8 @@
     ],
     "link": "https://www.youtube.com/c/yannickilcher",
     "notes": "similar to cuda in some senses but discussions arent as advanced",
-    "tsne_x": -0.03,
-    "tsne_y": -0.1836
+    "tsne_x": -0.2526,
+    "tsne_y": 0.138
   },
   {
     "name": "alignment ecosystem development",
@@ -772,8 +792,8 @@
     ],
     "link": "https://alignment.dev/",
     "notes": "site is good, server is good too.",
-    "tsne_x": 0.1852,
-    "tsne_y": 0.0368
+    "tsne_x": 0.1523,
+    "tsne_y": 0.0903
   },
   {
     "name": "degentech",
@@ -791,8 +811,8 @@
     ],
     "link": "https://www.youtube.com/@degentech",
     "notes": "furries! more engi focused but still good,meetings on the one true virtual reality,Vrchat",
-    "tsne_x": 0.8711,
-    "tsne_y": -0.26
+    "tsne_x": 0.2277,
+    "tsne_y": 0.8496
   },
   {
     "name": "deepchem",
@@ -809,8 +829,8 @@
     ],
     "link": "https://deepchem.io/",
     "notes": "active and working on AI+chemistry",
-    "tsne_x": 0.6034,
-    "tsne_y": -0.0148
+    "tsne_x": 0.3833,
+    "tsne_y": 0.4635
   },
   {
     "name": "google labs",
@@ -827,8 +847,8 @@
     ],
     "link": "https://labs.google/community",
     "notes": "better for newcomers, various projects",
-    "tsne_x": 0.547,
-    "tsne_y": 0.0232
+    "tsne_x": 0.3103,
+    "tsne_y": 0.4646
   },
   {
     "name": "Artifical intelligence",
@@ -843,8 +863,8 @@
     ],
     "link": "https://artificial-intelligence.gg/",
     "notes": "It's alright,a lot of newer folks who can read papers are here.",
-    "tsne_x": 0.031,
-    "tsne_y": -0.2266
+    "tsne_x": -0.1416,
+    "tsne_y": 0.121
   },
   {
     "name": "janus's server",
@@ -857,8 +877,8 @@
     ],
     "link": "#",
     "notes": "https://twitter.com/repligate",
-    "tsne_x": -0.5494,
-    "tsne_y": 0.146
+    "tsne_x": -0.6069,
+    "tsne_y": -0.2909
   },
   {
     "name": "pufferai",
@@ -872,8 +892,8 @@
     ],
     "link": "https://pufferai.github.io/build/html/rst/landing.html",
     "notes": "Good if you wanna help with pufferai or neuralMMO",
-    "tsne_x": -0.0598,
-    "tsne_y": 0.3786
+    "tsne_x": 0.2275,
+    "tsne_y": -0.4501
   },
   {
     "name": "flash linear  attention (asap seminar)",
@@ -887,8 +907,8 @@
     ],
     "link": "https://github.com/sustcsonglin/flash-linear-attention",
     "notes": "decently advanced but not too active; github is active and needs help",
-    "tsne_x": 0.146,
-    "tsne_y": -0.309
+    "tsne_x": 0.0475,
+    "tsne_y": -0.0307
   },
   {
     "name": "AI safety evals paper reading club",
@@ -902,8 +922,8 @@
     ],
     "link": "https://lu.ma/6fv1fo1w",
     "notes": "Not actually on discord.",
-    "tsne_x": -0.8027,
-    "tsne_y": -0.1122
+    "tsne_x": 0.8065,
+    "tsne_y": -0.1605
   },
   {
     "name": "Mathematics & Efficiency of Deep Learning",
@@ -917,8 +937,8 @@
     ],
     "link": "https://ellis.eu/reading-groups",
     "notes": "Talks about math and how it can be used to improve AI,essentially",
-    "tsne_x": -0.3525,
-    "tsne_y": 0.4952
+    "tsne_x": -0.1228,
+    "tsne_y": -0.0579
   },
   {
     "name": "ELLIS UniReps Speaker Series",
@@ -932,8 +952,8 @@
     ],
     "link": "https://ellis.eu/reading-groups",
     "notes": "reading group talking about various Neural network and ML stuff",
-    "tsne_x": 0.2139,
-    "tsne_y": -0.3692
+    "tsne_x": 0.5499,
+    "tsne_y": -0.0471
   },
   {
     "name": "Various research labs (unis)",
@@ -946,8 +966,8 @@
     ],
     "link": "https://www.google.com/search?q=research+lab+site%3Ahuggingface.co",
     "notes": "various unis have invite only research labs on discord ; essentially glorified slack channels. Kinda hard to find",
-    "tsne_x": 0.4436,
-    "tsne_y": -0.1042
+    "tsne_x": 0.0496,
+    "tsne_y": 0.3832
   },
   {
     "name": "LLM space",
@@ -960,8 +980,8 @@
     ],
     "link": "https://discord.gg/FYjptek5zY",
     "notes": "llm jailbreak puzzles; its nice, doesnt do anything else",
-    "tsne_x": -0.3508,
-    "tsne_y": -0.4097
+    "tsne_x": -0.7341,
+    "tsne_y": -0.2626
   },
   {
     "name": "Chips and cheese",
@@ -975,8 +995,8 @@
     ],
     "link": "https://chipsandcheese.com/",
     "notes": "chip leaks; probably should drop lower tbh",
-    "tsne_x": -0.4788,
-    "tsne_y": 0.4318
+    "tsne_x": -0.5231,
+    "tsne_y": 0.5045
   },
   {
     "name": "AISI (ai safety institute georgia tech)",
@@ -992,8 +1012,8 @@
     ],
     "link": "https://www.aisi.dev/",
     "notes": "some lesser known links and opportunities; not too active",
-    "tsne_x": -0.8603,
-    "tsne_y": -0.0344
+    "tsne_x": 0.8741,
+    "tsne_y": -0.2963
   },
   {
     "name": "d/arc",
@@ -1008,8 +1028,8 @@
     ],
     "link": "https://darcmode.org/",
     "notes": "not too active but incredibly useful if you're doing humanities research",
-    "tsne_x": 0.7323,
-    "tsne_y": -0.2018
+    "tsne_x": 0.3082,
+    "tsne_y": 0.7692
   },
   {
     "name": "wolfram institute community",
@@ -1025,8 +1045,8 @@
     ],
     "link": "https://wolframinstitute.org/community",
     "notes": "has some interesting ideas once in a while",
-    "tsne_x": 0.7382,
-    "tsne_y": -0.0801
+    "tsne_x": 0.4049,
+    "tsne_y": 0.6235
   },
   {
     "name": "quantum biology dao",
@@ -1041,8 +1061,8 @@
     ],
     "link": "https://www.quantumbiology.xyz/",
     "notes": "active and working on quantum biology",
-    "tsne_x": 0.7966,
-    "tsne_y": 0.242
+    "tsne_x": 0.7748,
+    "tsne_y": 0.69
   },
   {
     "name": "Neurofields",
@@ -1059,8 +1079,8 @@
     ],
     "link": "https://neurofields.org/",
     "notes": "more undergrad focused but still useful",
-    "tsne_x": 0.6718,
-    "tsne_y": 0.4493
+    "tsne_x": 0.7134,
+    "tsne_y": 0.1716
   },
   {
     "name": "Synthetic Biology Young Speaker Series",
@@ -1074,8 +1094,8 @@
     ],
     "link": "https://ebrc.org/synthetic-biology-young-speaker-series-synbyss/",
     "notes": "synthetic biology",
-    "tsne_x": 0.9454,
-    "tsne_y": -0.0406
+    "tsne_x": 0.599,
+    "tsne_y": 0.8027
   },
   {
     "name": "FORRT",
@@ -1090,8 +1110,8 @@
     ],
     "link": "https://forrt.org/about/get-involved/",
     "notes": "seems to deal with various social science and humanities topics, ran by grads",
-    "tsne_x": 0.7141,
-    "tsne_y": -0.1348
+    "tsne_x": 0.3518,
+    "tsne_y": 0.7077
   },
   {
     "name": "open memetics institute",
@@ -1106,8 +1126,23 @@
     ],
     "link": "https://defenderofbasic.github.io/open-memetics-institute/glossary.html",
     "notes": "interesting group of people doing culture studies",
-    "tsne_x": 0.5648,
-    "tsne_y": -0.0669
+    "tsne_x": 0.3617,
+    "tsne_y": 0.5407
+  },
+  {
+    "name": "RAGtag",
+    "score": 7.0,
+    "short desc": "most things regarding AI",
+    "tags": [
+      "general",
+      "very active",
+      "grad+industry chat",
+      "ai"
+    ],
+    "link": "https://discord.com/invite/rag-tag",
+    "notes": "Summarizes a lot of stuff going on in the industry and companies well.",
+    "tsne_x": -0.2001,
+    "tsne_y": 0.1827
   },
   {
     "name": "Ai2 (allen institute for AI)",
@@ -1123,8 +1158,8 @@
     ],
     "link": "https://allenai.org/",
     "notes": "another solid group for ai models",
-    "tsne_x": -0.26,
-    "tsne_y": 0.0109
+    "tsne_x": -0.131,
+    "tsne_y": -0.1754
   },
   {
     "name": "interconnects",
@@ -1140,8 +1175,8 @@
     ],
     "link": "https://www.interconnects.ai/p/discord",
     "notes": "Quite a number of people are here whose in industry of varying skill levels, decently good",
-    "tsne_x": -0.0983,
-    "tsne_y": -0.1697
+    "tsne_x": -0.3957,
+    "tsne_y": 0.189
   },
   {
     "name": "huggingface discord",
@@ -1157,8 +1192,8 @@
     ],
     "link": "huggingface.co",
     "notes": "very big but also has that problem where its very generalist/lots of people starting out",
-    "tsne_x": -0.1089,
-    "tsne_y": -0.3004
+    "tsne_x": -0.0688,
+    "tsne_y": 0.3505
   },
   {
     "name": "Huggingscience",
@@ -1175,8 +1210,8 @@
     ],
     "link": "https://discord.com/invite/VYkdEVjJ5J",
     "notes": "some things happen here re: AI4science",
-    "tsne_x": 0.2761,
-    "tsne_y": 0.2189
+    "tsne_x": -0.0044,
+    "tsne_y": 0.1285
   },
   {
     "name": "Multimodality reading group",
@@ -1190,8 +1225,8 @@
     ],
     "link": "https://sites.google.com/prod/view/divyamereddy/multi-modality-reading-group",
     "notes": "multimodal (text,audio,video,etc)",
-    "tsne_x": 0.2784,
-    "tsne_y": -0.3128
+    "tsne_x": 0.4876,
+    "tsne_y": -0.119
   },
   {
     "name": "prime intellect",
@@ -1205,8 +1240,8 @@
     ],
     "link": "https://www.primeintellect.ai/",
     "notes": "using crypto as compute i think?",
-    "tsne_x": 0.3229,
-    "tsne_y": 0.3556
+    "tsne_x": 0.0451,
+    "tsne_y": 0.2442
   },
   {
     "name": "quorum coworking",
@@ -1222,8 +1257,8 @@
     ],
     "link": "https://discord.gg/nugzwWCsNz",
     "notes": "bio opportunities posted here",
-    "tsne_x": 0.8117,
-    "tsne_y": -0.0452
+    "tsne_x": 0.4874,
+    "tsne_y": 0.7164
   },
   {
     "name": "Brain inspired complexity reading group",
@@ -1237,8 +1272,8 @@
     ],
     "link": "https://braininspired.co/complexitygroupemail/",
     "notes": "complexity group reading",
-    "tsne_x": 0.6379,
-    "tsne_y": 0.4087
+    "tsne_x": 0.6681,
+    "tsne_y": 0.1006
   },
   {
     "name": "summer of protocols",
@@ -1253,8 +1288,8 @@
     ],
     "link": "https://summerofprotocols.com/",
     "notes": "lots of protocols to improve among other stuff,more policy based",
-    "tsne_x": 0.6403,
-    "tsne_y": 0.1806
+    "tsne_x": 0.2071,
+    "tsne_y": 0.631
   },
   {
     "name": "assumptions of physics",
@@ -1268,8 +1303,8 @@
     ],
     "link": "https://assumptionsofphysics.org/",
     "notes": "they have an open physics project",
-    "tsne_x": 0.7732,
-    "tsne_y": 0.1178
+    "tsne_x": 0.5923,
+    "tsne_y": 0.5693
   },
   {
     "name": "duck ai",
@@ -1284,8 +1319,8 @@
     ],
     "link": "https://github.com/TheDuckAI",
     "notes": "currently has an active project going on.",
-    "tsne_x": 0.1999,
-    "tsne_y": 0.1679
+    "tsne_x": 0.0689,
+    "tsne_y": -0.2106
   },
   {
     "name": "marduk191",
@@ -1300,8 +1335,8 @@
     ],
     "link": "https://discord.gg/btCfTh4jgt",
     "notes": "cool guy",
-    "tsne_x": 0.0217,
-    "tsne_y": 0.3992
+    "tsne_x": 0.3083,
+    "tsne_y": -0.4574
   },
   {
     "name": "BASI",
@@ -1316,8 +1351,8 @@
     ],
     "link": "https://discord.gg/kkBARdDB",
     "notes": "plinny is there; pretty useful for prompt engi and red teaming",
-    "tsne_x": 0.1049,
-    "tsne_y": 0.1451
+    "tsne_x": -0.007,
+    "tsne_y": 0.579
   },
   {
     "name": "nordic neuromorphs",
@@ -1332,8 +1367,8 @@
     ],
     "link": "https://enccs.se/network/",
     "notes": "neuromorphs dont have much representation.",
-    "tsne_x": 0.3674,
-    "tsne_y": 0.6148
+    "tsne_x": -0.1162,
+    "tsne_y": -0.3613
   },
   {
     "name": "Learn prompting",
@@ -1349,8 +1384,8 @@
     ],
     "link": "https://discord.com/invite/learn-prompting-1046228027434086460",
     "notes": "you learn..prompting . some events on server now",
-    "tsne_x": -0.0684,
-    "tsne_y": 0.6771
+    "tsne_x": -0.2634,
+    "tsne_y": 0.5213
   },
   {
     "name": "ML commons",
@@ -1367,8 +1402,8 @@
     ],
     "link": "https://mlcommons.org/",
     "notes": "Lots of smaller groups- some active; its nice",
-    "tsne_x": 0.1006,
-    "tsne_y": -0.1149
+    "tsne_x": 0.2719,
+    "tsne_y": -0.0398
   },
   {
     "name": "open superintelligence labs",
@@ -1384,8 +1419,8 @@
     ],
     "link": "https://opensuperintelligencelab.com/",
     "notes": "new,another group attempting open source AGI,this one has a lot more focus than the rest",
-    "tsne_x": 0.4033,
-    "tsne_y": 0.093
+    "tsne_x": 0.2548,
+    "tsne_y": 0.3494
   },
   {
     "name": "inference ai",
@@ -1400,8 +1435,8 @@
     ],
     "link": "https://disboard.org/server/1379232943494402191",
     "notes": "the site is GPU optimization, but the server is a lot more beginner/advanced oriented",
-    "tsne_x": -0.3558,
-    "tsne_y": 0.3583
+    "tsne_x": -0.4083,
+    "tsne_y": 0.3969
   },
   {
     "name": "biopunk community",
@@ -1418,8 +1453,8 @@
     ],
     "link": "https://biopunklab.com/",
     "notes": "server not too useful unless you're using one of the labs IRL",
-    "tsne_x": 0.7752,
-    "tsne_y": 0.0042
+    "tsne_x": 0.5006,
+    "tsne_y": 0.6546
   },
   {
     "name": "OpenBioML",
@@ -1437,8 +1472,8 @@
     ],
     "link": "https://www.openbioml.org/",
     "notes": "not too active, some opportunities once in a while.",
-    "tsne_x": 0.7971,
-    "tsne_y": -0.0224
+    "tsne_x": 0.4989,
+    "tsne_y": 0.6921
   },
   {
     "name": "fast ai",
@@ -1452,8 +1487,8 @@
     ],
     "link": "https://www.fast.ai/",
     "notes": "useful if youre new to ai",
-    "tsne_x": -0.3169,
-    "tsne_y": 0.4908
+    "tsne_x": -0.0953,
+    "tsne_y": -0.0459
   },
   {
     "name": "Anlatan",
@@ -1468,8 +1503,8 @@
     ],
     "link": "https://anlatan.ai/",
     "notes": "server is active and you can get help using their models, Not much else.",
-    "tsne_x": -0.4176,
-    "tsne_y": -0.2232
+    "tsne_x": -0.0952,
+    "tsne_y": -0.6611
   },
   {
     "name": "Umar Jamil AI",
@@ -1483,8 +1518,8 @@
     ],
     "link": "https://discord.com/invite/JRKsaNbhCg",
     "notes": "https://x.com/hkproj their youtube is nice,has chinese section, discord  is newish, they're doing a paper though",
-    "tsne_x": -0.3445,
-    "tsne_y": -0.1305
+    "tsne_x": -0.4063,
+    "tsne_y": -0.1472
   },
   {
     "name": "TohouAI",
@@ -1498,8 +1533,8 @@
     ],
     "link": "https://discord.gg/touhouai",
     "notes": "very active, general ai server but also more advanced.helpful",
-    "tsne_x": -0.4559,
-    "tsne_y": -0.1782
+    "tsne_x": -0.1075,
+    "tsne_y": -0.7272
   },
   {
     "name": "potato farmers sutdy group",
@@ -1515,8 +1550,8 @@
     ],
     "link": "#",
     "notes": "uwu",
-    "tsne_x": 0.4158,
-    "tsne_y": 0.1617
+    "tsne_x": 0.147,
+    "tsne_y": 0.4568
   },
   {
     "name": "reinforcement learning discussion",
@@ -1530,8 +1565,8 @@
     ],
     "link": "https://github.com/andyljones/reinforcement-learning-discord-wiki/wiki",
     "notes": "sometimes answers RLHF type questions,otherwise mostly dead",
-    "tsne_x": -0.0722,
-    "tsne_y": -0.2264
+    "tsne_x": -0.2665,
+    "tsne_y": 0.0739
   },
   {
     "name": "Eureka Labs",
@@ -1545,8 +1580,8 @@
     ],
     "link": "https://eurekalabs.ai/",
     "notes": "reminds me of the fast ai course",
-    "tsne_x": -0.2778,
-    "tsne_y": 0.5312
+    "tsne_x": -0.0708,
+    "tsne_y": -0.0011
   },
   {
     "name": "Ml collective open collab",
@@ -1562,8 +1597,8 @@
     ],
     "link": "https://mlcollective.org/",
     "notes": "Mostly inactive but paper group is still active",
-    "tsne_x": 0.2404,
-    "tsne_y": -0.1306
+    "tsne_x": 0.3618,
+    "tsne_y": 0.0956
   },
   {
     "name": "dev mode",
@@ -1577,8 +1612,8 @@
     ],
     "link": "https://x.com/koltregaskes/status/1924806305094435285",
     "notes": "nice spot to check to see policy changes and leaks",
-    "tsne_x": -0.2166,
-    "tsne_y": 0.1931
+    "tsne_x": 0.0546,
+    "tsne_y": -0.5103
   },
   {
     "name": "bio xyz",
@@ -1591,8 +1626,8 @@
     ],
     "link": "bio.xyz",
     "notes": "they fund desci projects.",
-    "tsne_x": 0.8815,
-    "tsne_y": -0.0866
+    "tsne_x": 0.5152,
+    "tsne_y": 0.8005
   },
   {
     "name": "comma ai",
@@ -1608,8 +1643,8 @@
     ],
     "link": "https://discord.com/invite/FEzeve2NX2",
     "notes": "self driving car for all the non self driving cars ;partially open source,pretty cool!",
-    "tsne_x": -0.2777,
-    "tsne_y": -0.6754
+    "tsne_x": 0.1696,
+    "tsne_y": -0.5866
   },
   {
     "name": "ultralytics",
@@ -1624,8 +1659,8 @@
     ],
     "link": "https://www.ultralytics.com/ https://www.youtube.com/ultralytics",
     "notes": "pretty solid Computer vision server; also has a youtube channel",
-    "tsne_x": -0.147,
-    "tsne_y": 0.4012
+    "tsne_x": 0.2004,
+    "tsne_y": -0.2793
   },
   {
     "name": "Ai safety founders",
@@ -1640,8 +1675,8 @@
     ],
     "link": "https://aisfounders.com/",
     "notes": "cool place to find ai safety founders if you're in the field",
-    "tsne_x": -0.8398,
-    "tsne_y": -0.0568
+    "tsne_x": 0.8524,
+    "tsne_y": -0.2703
   },
   {
     "name": "agentic AI mooc",
@@ -1657,8 +1692,8 @@
     ],
     "link": "https://rdi.berkeley.edu/agentic-ai/f25",
     "notes": "A lot of junior builders are there",
-    "tsne_x": -0.0921,
-    "tsne_y": 0.5308
+    "tsne_x": -0.1063,
+    "tsne_y": -0.2022
   },
   {
     "name": "Researchseminars.org",
@@ -1671,8 +1706,8 @@
     ],
     "link": "https://researchseminars.org/",
     "notes": "I have no clue how much alpha is in most of these seminars.",
-    "tsne_x": 0.7922,
-    "tsne_y": -0.2411
+    "tsne_x": 0.3331,
+    "tsne_y": 0.8576
   },
   {
     "name": "Open Ethics",
@@ -1686,15 +1721,15 @@
     ],
     "link": "https://openethics.ai/",
     "notes": "has a weekly reading group on ethics in AI,research transparency etc",
-    "tsne_x": 0.2835,
-    "tsne_y": -0.5743
+    "tsne_x": 0.7542,
+    "tsne_y": -0.0328
   },
   {
     "name": "le robot",
     "score": 6.7,
-    "short desc": "robotics",
+    "short desc": "Research on robots",
     "tags": [
-      "research",
+      "robotics",
       "active",
       "grad+industry chat",
       "jobs board",
@@ -1702,82 +1737,8 @@
     ],
     "link": "https://huggingface.co/lerobot",
     "notes": "Robotics server!",
-    "tsne_x": -0.0456,
-    "tsne_y": -0.1329
-  },
-  {
-    "name": "goodfire research",
-    "score": 6.7,
-    "short desc": "mech interp",
-    "tags": [
-      "research",
-      "semi active",
-      "working group",
-      "ai"
-    ],
-    "link": "https://platform.goodfire.ai/landing",
-    "notes": "their publications are good; server not too active though",
-    "tsne_x": 0.4151,
-    "tsne_y": -0.1991
-  },
-  {
-    "name": "huntr",
-    "score": 6.7,
-    "short desc": "platform to find ai bug bounties",
-    "tags": [
-      "casual",
-      "mostly inactive",
-      "ai"
-    ],
-    "link": "https://huntr.com/bounties",
-    "notes": "Use the site. Site is incredibly useful.",
-    "tsne_x": -0.6486,
-    "tsne_y": 0.1585
-  },
-  {
-    "name": "Carnegie mellon university AI safety",
-    "score": 6.7,
-    "short desc": "ai safety group part of a university",
-    "tags": [
-      "ai safety",
-      "semi active",
-      "opportunities board",
-      "ai"
-    ],
-    "link": "https://cmuaisafety.com/contact.html",
-    "notes": "more resources and opportunities than most other uni ai safety",
-    "tsne_x": -0.8932,
-    "tsne_y": -0.0582
-  },
-  {
-    "name": "Ml resources",
-    "score": 6.7,
-    "short desc": "various AI research links here",
-    "tags": [
-      "education",
-      "semi active",
-      "opportunities board",
-      "ai"
-    ],
-    "link": "https://discord.gg/MnDxH4x4Fw",
-    "notes": "pretty useful links for newcomers,some education ones which seem okay enough",
-    "tsne_x": -0.0071,
-    "tsne_y": -0.0114
-  },
-  {
-    "name": "BabyLM",
-    "score": 6.7,
-    "short desc": "sample-efficient pretraining under human-scale data budgets",
-    "tags": [
-      "research",
-      "semi active",
-      "working group",
-      "ai"
-    ],
-    "link": "https://babylm.github.io/",
-    "notes": "Good if you're doing the competition",
-    "tsne_x": -0.3734,
-    "tsne_y": 0.5715
+    "tsne_x": -0.1349,
+    "tsne_y": 0.2658
   },
   {
     "name": "AI and scientific discovery",
@@ -1791,8 +1752,68 @@
     ],
     "link": "https://ai-scientific-discovery.github.io/",
     "notes": "talks currently inactive, might start back again soon",
-    "tsne_x": 0.0261,
-    "tsne_y": -0.4062
+    "tsne_x": -0.0857,
+    "tsne_y": 0.1331
+  },
+  {
+    "name": "goodfire research",
+    "score": 6.7,
+    "short desc": "mech interp",
+    "tags": [
+      "research",
+      "semi active",
+      "working group",
+      "ai"
+    ],
+    "link": "https://platform.goodfire.ai/landing",
+    "notes": "their publications are good; server not too active though",
+    "tsne_x": 0.4858,
+    "tsne_y": 0.2176
+  },
+  {
+    "name": "Carnegie mellon university AI safety",
+    "score": 6.7,
+    "short desc": "ai safety group part of a university",
+    "tags": [
+      "ai safety",
+      "semi active",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://cmuaisafety.com/contact.html",
+    "notes": "more resources and opportunities than most other uni ai safety",
+    "tsne_x": 0.9108,
+    "tsne_y": -0.2648
+  },
+  {
+    "name": "Ml resources",
+    "score": 6.7,
+    "short desc": "various AI research links here",
+    "tags": [
+      "education",
+      "semi active",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://discord.gg/MnDxH4x4Fw",
+    "notes": "pretty useful links for newcomers,some education ones which seem okay enough",
+    "tsne_x": -0.2602,
+    "tsne_y": 0.3688
+  },
+  {
+    "name": "BabyLM",
+    "score": 6.7,
+    "short desc": "sample-efficient pretraining under human-scale data budgets",
+    "tags": [
+      "research",
+      "semi active",
+      "working group",
+      "ai"
+    ],
+    "link": "https://babylm.github.io/",
+    "notes": "Good if you're doing the competition",
+    "tsne_x": 0.5082,
+    "tsne_y": -0.5736
   },
   {
     "name": "community archive",
@@ -1806,8 +1827,8 @@
     ],
     "link": "https://www.community-archive.org/",
     "notes": "dataset can be useful,server not too active",
-    "tsne_x": 0.6393,
-    "tsne_y": -0.2964
+    "tsne_x": 0.6706,
+    "tsne_y": 0.3749
   },
   {
     "name": "radvac project",
@@ -1822,8 +1843,8 @@
     ],
     "link": "https://radvac.org/",
     "notes": "server mostly dead but radvac is still going on,creators online if you want to chat with him.",
-    "tsne_x": 1.0,
-    "tsne_y": -0.1464
+    "tsne_x": 0.5785,
+    "tsne_y": 0.9234
   },
   {
     "name": "Mozilla AI",
@@ -1839,8 +1860,8 @@
     ],
     "link": "https://future.mozilla.org/",
     "notes": "good if you want  to help with mozilla, decently active",
-    "tsne_x": -0.0044,
-    "tsne_y": 0.2805
+    "tsne_x": 0.2534,
+    "tsne_y": -0.3357
   },
   {
     "name": "Aleksa Gordic",
@@ -1856,8 +1877,8 @@
     ],
     "link": "https://www.youtube.com/c/TheAIEpiphany",
     "notes": "server not too active but github still  kinda active, server itself is more learning focused.",
-    "tsne_x": -0.0752,
-    "tsne_y": 0.1663
+    "tsne_x": 0.0472,
+    "tsne_y": -0.4263
   },
   {
     "name": "comfy org",
@@ -1874,8 +1895,8 @@
     ],
     "link": "https://discord.gg/comfyorg",
     "notes": "good if you wanna help with the project",
-    "tsne_x": 0.0118,
-    "tsne_y": 0.2786
+    "tsne_x": 0.2691,
+    "tsne_y": -0.3326
   },
   {
     "name": "Behaviour1k",
@@ -1890,8 +1911,8 @@
     ],
     "link": "https://behavior.stanford.edu/challenge/updates.html",
     "notes": "cool vision language spot",
-    "tsne_x": -0.0401,
-    "tsne_y": 0.2356
+    "tsne_x": 0.1716,
+    "tsne_y": -0.3313
   },
   {
     "name": "PrismML",
@@ -1906,8 +1927,8 @@
     ],
     "link": "https://prismml.com/",
     "notes": "all neolabs have a lot of cracked people in it.",
-    "tsne_x": -0.0185,
-    "tsne_y": 0.4532
+    "tsne_x": 0.3854,
+    "tsne_y": -0.4662
   },
   {
     "name": "gray swan arena",
@@ -1922,8 +1943,8 @@
     ],
     "link": "https://discord.gg/Y5CbGVDtXk",
     "notes": "standard red teaming group",
-    "tsne_x": 0.0766,
-    "tsne_y": 0.1051
+    "tsne_x": 0.182,
+    "tsne_y": -0.0681
   },
   {
     "name": "AI alignment at illinois university",
@@ -1937,8 +1958,8 @@
     ],
     "link": "https://aialignmentillinois.org/",
     "notes": "Does some stuff, better if you're in the university.",
-    "tsne_x": -0.899,
-    "tsne_y": -0.0221
+    "tsne_x": 0.9251,
+    "tsne_y": -0.3158
   },
   {
     "name": "National Taiwan University AI safety",
@@ -1954,8 +1975,8 @@
     ],
     "link": "https://ntuais.org/",
     "notes": "Good if in the uni,sometimes,links papers, opportunities, also speaks mandarin",
-    "tsne_x": -0.8922,
-    "tsne_y": -0.1056
+    "tsne_x": 0.8961,
+    "tsne_y": -0.2046
   },
   {
     "name": "AI forum for india",
@@ -1969,8 +1990,8 @@
     ],
     "link": "https://aiforum.analyticsindiamag.com/",
     "notes": "lots of links to stuff going on in india.",
-    "tsne_x": -0.4234,
-    "tsne_y": 0.2525
+    "tsne_x": -0.499,
+    "tsne_y": 0.3087
   },
   {
     "name": "Lucky robots",
@@ -1985,8 +2006,8 @@
     ],
     "link": "https://luckyrobots.com/",
     "notes": "a company, shares some good robotics papers.",
-    "tsne_x": -0.2695,
-    "tsne_y": 0.2833
+    "tsne_x": -0.0622,
+    "tsne_y": -0.2673
   },
   {
     "name": "arc prize",
@@ -2000,8 +2021,8 @@
     ],
     "link": "https://arcprize.org/competition",
     "notes": "great if you wanna join the arc prize",
-    "tsne_x": 0.4864,
-    "tsne_y": 0.3026
+    "tsne_x": 0.5831,
+    "tsne_y": -0.3635
   },
   {
     "name": "terminus research group",
@@ -2015,8 +2036,8 @@
     ],
     "link": "https://huggingface.co/terminusresearch",
     "notes": "Decently active",
-    "tsne_x": 0.3226,
-    "tsne_y": 0.091
+    "tsne_x": 0.2807,
+    "tsne_y": 0.2573
   },
   {
     "name": "neurosymbolicAI",
@@ -2029,8 +2050,8 @@
     ],
     "link": "https://discord.gg/wtUFP3PCXK",
     "notes": "dead except when they host a event which is once every few months or so",
-    "tsne_x": 0.4718,
-    "tsne_y": 0.593
+    "tsne_x": -0.1874,
+    "tsne_y": -0.4011
   },
   {
     "name": "multimodal minds",
@@ -2045,8 +2066,8 @@
     ],
     "link": "https://x.com/twelve_labs/status/1783231861675954560",
     "notes": "A bit less researchy than the rest, but the talks are fine",
-    "tsne_x": 0.2825,
-    "tsne_y": -0.2864
+    "tsne_x": 0.4681,
+    "tsne_y": -0.154
   },
   {
     "name": "researchhub",
@@ -2060,8 +2081,8 @@
     ],
     "link": "https://www.researchhub.com/",
     "notes": "they help fund most science projects among other science related things",
-    "tsne_x": 0.8537,
-    "tsne_y": -0.1503
+    "tsne_x": 0.4364,
+    "tsne_y": 0.8332
   },
   {
     "name": "a division by zero",
@@ -2075,8 +2096,8 @@
     ],
     "link": "https://aihorde.net/",
     "notes": "good if you need help with ai horde",
-    "tsne_x": -0.1626,
-    "tsne_y": 0.3092
+    "tsne_x": 0.0283,
+    "tsne_y": -0.2869
   },
   {
     "name": "morpheous audio research",
@@ -2091,8 +2112,8 @@
     ],
     "link": "https://huggingface.co/MrDragonFox",
     "notes": "audio research is always good",
-    "tsne_x": -0.359,
-    "tsne_y": -0.5504
+    "tsne_x": -0.437,
+    "tsne_y": -0.3604
   },
   {
     "name": "PauseAI",
@@ -2106,8 +2127,8 @@
     ],
     "link": "https://pauseai.info/",
     "notes": "group that wants to pause ai",
-    "tsne_x": 0.1585,
-    "tsne_y": 0.0892
+    "tsne_x": 0.1678,
+    "tsne_y": 0.0211
   },
   {
     "name": "occiglot",
@@ -2123,8 +2144,8 @@
     ],
     "link": "https://occiglot.eu/",
     "notes": "Not too active but they do work and need help with stuff",
-    "tsne_x": 0.1108,
-    "tsne_y": 0.2813
+    "tsne_x": 0.3901,
+    "tsne_y": -0.2741
   },
   {
     "name": "mrnerf and brush",
@@ -2140,8 +2161,8 @@
     ],
     "link": "https://discord.com/invite/NqwTqVYVmj",
     "notes": "neat spot to find for more animation stuff",
-    "tsne_x": -0.0062,
-    "tsne_y": 0.1938
+    "tsne_x": -0.1073,
+    "tsne_y": 0.4785
   },
   {
     "name": "Wisconsin AI safety initative",
@@ -2156,8 +2177,23 @@
     ],
     "link": "https://waisi.org/",
     "notes": "Great if you're in wisconsin",
-    "tsne_x": -0.9187,
-    "tsne_y": -0.128
+    "tsne_x": 0.9387,
+    "tsne_y": -0.1892
+  },
+  {
+    "name": "SIGrobotics illinois",
+    "score": 6.5,
+    "short desc": "Uni group doing robotics stuff",
+    "tags": [
+      "robotics",
+      "semi active",
+      "jobs board",
+      "ai"
+    ],
+    "link": "https://sigrobotics.acm.illinois.edu/",
+    "notes": "Better if you go to the university",
+    "tsne_x": -0.1262,
+    "tsne_y": 0.2761
   },
   {
     "name": "aisafety dot com",
@@ -2170,8 +2206,8 @@
     ],
     "link": "https://www.aisafety.com/events-and-training",
     "notes": "Use the site unless you want to help. Site is incredibly useful.",
-    "tsne_x": -0.4225,
-    "tsne_y": 0.1722
+    "tsne_x": 0.1064,
+    "tsne_y": 0.0343
   },
   {
     "name": "adjont",
@@ -2184,8 +2220,8 @@
     ],
     "link": "https://github.com/adamnemecek/traceoid.ai?tab=readme-ov-file",
     "notes": "sadly not very active rn but very promising;they are looking for experts! see github",
-    "tsne_x": -0.298,
-    "tsne_y": 0.4646
+    "tsne_x": -0.0638,
+    "tsne_y": -0.0618
   },
   {
     "name": "intel devhub",
@@ -2199,8 +2235,8 @@
     ],
     "link": "https://discord.com/invite/eQkvkj3Zwa",
     "notes": "not really ai related enough but it is nice",
-    "tsne_x": -0.4562,
-    "tsne_y": 0.3306
+    "tsne_x": -0.527,
+    "tsne_y": 0.3913
   },
   {
     "name": "edge ai foundation",
@@ -2214,8 +2250,8 @@
     ],
     "link": "https://www.edgeaifoundation.org/",
     "notes": "server is dead until an activity pops up. Ngl they do a lot of stuff.",
-    "tsne_x": -0.1657,
-    "tsne_y": -0.2068
+    "tsne_x": -0.4115,
+    "tsne_y": 0.0968
   },
   {
     "name": "oxen ai",
@@ -2229,8 +2265,8 @@
     ],
     "link": "https://www.oxen.ai/community",
     "notes": "its alright; papers dives are nice",
-    "tsne_x": 0.2599,
-    "tsne_y": -0.4584
+    "tsne_x": 0.4923,
+    "tsne_y": 0.0325
   },
   {
     "name": "chicago ml paper reading club",
@@ -2245,8 +2281,8 @@
     ],
     "link": "https://luma.com/ML_Reading_Group",
     "notes": "Standard reading club-IRL only (might remove it?)",
-    "tsne_x": 0.2958,
-    "tsne_y": -0.4004
+    "tsne_x": 0.5706,
+    "tsne_y": 0.033
   },
   {
     "name": "Universe TBD",
@@ -2261,8 +2297,8 @@
     ],
     "link": "https://github.com/UniverseTBD",
     "notes": "odd group; not too active",
-    "tsne_x": 0.3178,
-    "tsne_y": -0.0494
+    "tsne_x": 0.2998,
+    "tsne_y": 0.2034
   },
   {
     "name": "Batbot",
@@ -2277,8 +2313,8 @@
     ],
     "link": "http://batbot.ai",
     "notes": "a fine server about someone building an AI",
-    "tsne_x": -0.2253,
-    "tsne_y": 0.2654
+    "tsne_x": -0.0083,
+    "tsne_y": -0.3801
   },
   {
     "name": "r/machinelearning(and most other reddits)",
@@ -2292,8 +2328,8 @@
     ],
     "link": "https://www.reddit.com/r/MachineLearning/",
     "notes": "because of the nature of how reddit is; you can't realy have projects etc going on,on reddit; its why you won't see xitter spots here etc; discussion varies by reddit etc;r/ml isn't bad by any means, not too technical though",
-    "tsne_x": 0.0508,
-    "tsne_y": -0.079
+    "tsne_x": -0.3229,
+    "tsne_y": 0.3574
   },
   {
     "name": "[redacted] personal server",
@@ -2306,8 +2342,8 @@
     ],
     "link": "#",
     "notes": "Lots of  cracked people in here",
-    "tsne_x": -0.5789,
-    "tsne_y": 0.1154
+    "tsne_x": -0.6486,
+    "tsne_y": -0.2964
   },
   {
     "name": "virtual valley ai",
@@ -2321,8 +2357,8 @@
     ],
     "link": "https://discord.gg/VH7YNB8rZc",
     "notes": "Owner does a lot and has projects to help",
-    "tsne_x": -0.1453,
-    "tsne_y": 0.2891
+    "tsne_x": 0.0489,
+    "tsne_y": -0.2841
   },
   {
     "name": "Random research lab",
@@ -2335,8 +2371,8 @@
     ],
     "link": "https://discord.com/invite/vgVFHvjus5",
     "notes": "hosts the infinity AI image gen models",
-    "tsne_x": -0.7027,
-    "tsne_y": 0.283
+    "tsne_x": -0.0623,
+    "tsne_y": -0.7938
   },
   {
     "name": "Ai leaks",
@@ -2349,8 +2385,8 @@
     ],
     "link": "https://discord.com/invite/sFYvsc8ZKq",
     "notes": "Leaks of AI",
-    "tsne_x": -0.6569,
-    "tsne_y": -0.1534
+    "tsne_x": -0.3313,
+    "tsne_y": -0.6704
   },
   {
     "name": "amd developer community",
@@ -2363,8 +2399,8 @@
     ],
     "link": "https://discord.gg/wnuUKGQeym",
     "notes": "not really ai related enough but it is nice",
-    "tsne_x": -0.4694,
-    "tsne_y": 0.3425
+    "tsne_x": -0.5393,
+    "tsne_y": 0.4057
   },
   {
     "name": "northwestern university AI safety",
@@ -2379,8 +2415,8 @@
     ],
     "link": "https://forum.effectivealtruism.org/groups/ajJ3sFHWWrxvvsMCv",
     "notes": "standard ai safety server",
-    "tsne_x": -0.9157,
-    "tsne_y": -0.1076
+    "tsne_x": 0.9289,
+    "tsne_y": -0.2137
   },
   {
     "name": "vesuvius challenge",
@@ -2394,8 +2430,8 @@
     ],
     "link": "https://scrollprize.org/",
     "notes": "not too useful unless you want to help with the competition",
-    "tsne_x": 0.5329,
-    "tsne_y": -0.1478
+    "tsne_x": 0.6197,
+    "tsne_y": -0.455
   },
   {
     "name": "Pluralis research",
@@ -2411,8 +2447,8 @@
     ],
     "link": "https://pluralis.ai/",
     "notes": "another standard decentralized learning group",
-    "tsne_x": 0.3579,
-    "tsne_y": 0.3288
+    "tsne_x": 0.0831,
+    "tsne_y": 0.2538
   },
   {
     "name": "ai vulnerability database",
@@ -2427,8 +2463,8 @@
     ],
     "link": "https://avidml.org/community/",
     "notes": "another great hub for ai red teaming/blue teaming",
-    "tsne_x": 0.0349,
-    "tsne_y": 0.0962
+    "tsne_x": 0.1486,
+    "tsne_y": -0.0945
   },
   {
     "name": "women in ai research",
@@ -2444,8 +2480,8 @@
     ],
     "link": "https://women-in-ai-research.github.io/",
     "notes": "new, maybe the place will pick up pace in the future.",
-    "tsne_x": -0.028,
-    "tsne_y": -0.077
+    "tsne_x": -0.2486,
+    "tsne_y": 0.2471
   },
   {
     "name": "human centric machine learning reading group",
@@ -2459,8 +2495,8 @@
     ],
     "link": "https://ellis.eu/reading-groups",
     "notes": "reading group about ML from human ideas",
-    "tsne_x": 0.2625,
-    "tsne_y": -0.3736
+    "tsne_x": 0.5696,
+    "tsne_y": -0.0108
   },
   {
     "name": "Rob Miles",
@@ -2474,8 +2510,8 @@
     ],
     "link": "https://www.youtube.com/channel/UCLB7AzTwc6VFZrBsO2ucBMg https://aisafety.info/",
     "notes": "Not too active but links to more important things",
-    "tsne_x": -0.3362,
-    "tsne_y": 0.0301
+    "tsne_x": -0.2023,
+    "tsne_y": -0.1496
   },
   {
     "name": "Tonic's better prompts",
@@ -2490,8 +2526,8 @@
     ],
     "link": "https://discord.gg/qdfnvSPcqP",
     "notes": "great if you wanna chat with tonic",
-    "tsne_x": -0.095,
-    "tsne_y": -0.5734
+    "tsne_x": -0.1759,
+    "tsne_y": 0.5571
   },
   {
     "name": "center for election science",
@@ -2505,8 +2541,22 @@
     ],
     "link": "https://electionscience.org/",
     "notes": "election science stuff,more policy based but still interesting",
-    "tsne_x": 0.9671,
-    "tsne_y": 0.1412
+    "tsne_x": 0.7651,
+    "tsne_y": 0.5108
+  },
+  {
+    "name": "huntr",
+    "score": 6.4,
+    "short desc": "platform to find ai bug bounties",
+    "tags": [
+      "casual",
+      "mostly inactive",
+      "ai"
+    ],
+    "link": "https://huntr.com/bounties",
+    "notes": "Use the site. Site is incredibly useful.",
+    "tsne_x": -0.7294,
+    "tsne_y": -0.3702
   },
   {
     "name": "computer vision",
@@ -2521,8 +2571,24 @@
     ],
     "link": "https://discord.gg/GregHWDXeJ",
     "notes": "Good if you need computer vision help; check the darknet computer vision tool on the next sheet too",
-    "tsne_x": -0.1784,
-    "tsne_y": 0.497
+    "tsne_x": -0.1353,
+    "tsne_y": 0.673
+  },
+  {
+    "name": "Queensland Ai safety",
+    "score": 6.3,
+    "short desc": "ai safety,resources to fellowships",
+    "tags": [
+      "alignment",
+      "semi active",
+      "irl based",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://discord.com/invite/ACJvh7xA",
+    "notes": "A university AI safety group, a bit better if you're in the uni.",
+    "tsne_x": 0.924,
+    "tsne_y": -0.2263
   },
   {
     "name": "ai village",
@@ -2537,8 +2603,8 @@
     ],
     "link": "https://aivillage.org/",
     "notes": "Kinda dead but a decent amount of skilled people are here and the best hub for ai red teaming/blue teaming",
-    "tsne_x": 0.0452,
-    "tsne_y": 0.0933
+    "tsne_x": 0.1541,
+    "tsne_y": -0.0872
   },
   {
     "name": "ai warehouse",
@@ -2551,8 +2617,8 @@
     ],
     "link": "https://www.youtube.com/@aiwarehouse",
     "notes": "youtube channel is nice, discord is more aimed for beginners or people not in ai research",
-    "tsne_x": -0.1853,
-    "tsne_y": -0.1495
+    "tsne_x": -0.3047,
+    "tsne_y": 0.0322
   },
   {
     "name": "kaggle",
@@ -2565,8 +2631,8 @@
     ],
     "link": "https://www.kaggle.com/",
     "notes": "Its kaggle, the ai hackathon place.",
-    "tsne_x": 0.1746,
-    "tsne_y": 0.5181
+    "tsne_x": -0.8823,
+    "tsne_y": -0.3593
   },
   {
     "name": "orchestra research community",
@@ -2581,8 +2647,8 @@
     ],
     "link": "https://www.orchestra-research.com/forum",
     "notes": "Interesting, currently not much use.",
-    "tsne_x": -0.1428,
-    "tsne_y": 0.1809
+    "tsne_x": 0.1336,
+    "tsne_y": -0.4584
   },
   {
     "name": "project pythia",
@@ -2598,8 +2664,8 @@
     ],
     "link": "https://cookbooks.projectpythia.org/",
     "notes": "there are a few of these online but this one is active on zoom",
-    "tsne_x": 0.6978,
-    "tsne_y": 0.0124
+    "tsne_x": 0.4583,
+    "tsne_y": 0.5626
   },
   {
     "name": "LAION",
@@ -2614,8 +2680,8 @@
     ],
     "link": "https://laion.ai/",
     "notes": "the server itself isnt too active but the company is up to stuff",
-    "tsne_x": 0.2683,
-    "tsne_y": 0.1432
+    "tsne_x": 0.3522,
+    "tsne_y": 0.2307
   },
   {
     "name": "m-a-p.ai",
@@ -2630,8 +2696,8 @@
     ],
     "link": "https://huggingface.co/m-a-p",
     "notes": "discord is dead but huggingface is active-you could probably join to do stuff from there though",
-    "tsne_x": -0.1629,
-    "tsne_y": -0.3076
+    "tsne_x": -0.1364,
+    "tsne_y": -0.5035
   },
   {
     "name": "caligostro research lab",
@@ -2646,8 +2712,8 @@
     ],
     "link": "https://github.com/cagliostrolab",
     "notes": "cool model",
-    "tsne_x": 0.0178,
-    "tsne_y": 0.4195
+    "tsne_x": 0.3314,
+    "tsne_y": -0.463
   },
   {
     "name": "autogen",
@@ -2664,8 +2730,8 @@
     ],
     "link": "https://github.com/microsoft/autogen",
     "notes": "Good if you wanna help on the project or need help with autogen",
-    "tsne_x": 0.0023,
-    "tsne_y": 0.3152
+    "tsne_x": 0.2845,
+    "tsne_y": -0.3704
   },
   {
     "name": "Helpful engineering",
@@ -2680,8 +2746,8 @@
     ],
     "link": "https://helpfulengineering.org/projects/",
     "notes": "slack isn't too active but decent amount of projects to help with here",
-    "tsne_x": 0.6277,
-    "tsne_y": -0.1547
+    "tsne_x": 0.4925,
+    "tsne_y": 0.4272
   },
   {
     "name": "expedition Aya",
@@ -2696,8 +2762,8 @@
     ],
     "link": "https://sites.google.com/cohere.com/expedition-aya/home",
     "notes": "cool pseudo conference thingy",
-    "tsne_x": 0.009,
-    "tsne_y": -0.4971
+    "tsne_x": 0.006,
+    "tsne_y": 0.468
   },
   {
     "name": "leela chess zero",
@@ -2711,8 +2777,8 @@
     ],
     "link": "https://lczero.org/",
     "notes": "Cool project,lots of subprojects from this too",
-    "tsne_x": 0.0376,
-    "tsne_y": 0.5515
+    "tsne_x": -0.2619,
+    "tsne_y": -0.8248
   },
   {
     "name": "beaver ai club",
@@ -2726,8 +2792,8 @@
     ],
     "link": "https://huggingface.co/BeaverAI/Moist-Miqu-70b-v1-exl2",
     "notes": "server's alright; does finetuning work",
-    "tsne_x": -0.2503,
-    "tsne_y": -0.3302
+    "tsne_x": -0.2212,
+    "tsne_y": -0.5115
   },
   {
     "name": "cara ai",
@@ -2741,8 +2807,8 @@
     ],
     "link": "https://cara.app/",
     "notes": "server that works with artists",
-    "tsne_x": -0.42,
-    "tsne_y": -0.0252
+    "tsne_x": -0.513,
+    "tsne_y": 0.0913
   },
   {
     "name": "bandoco",
@@ -2755,8 +2821,8 @@
     ],
     "link": "https://x.com/banodoco?lang=en",
     "notes": "good if youre newer to ai and want to do some art",
-    "tsne_x": -0.4425,
-    "tsne_y": -0.0512
+    "tsne_x": -0.5254,
+    "tsne_y": 0.0501
   },
   {
     "name": "AER labs",
@@ -2772,8 +2838,8 @@
     ],
     "link": "https://aerlabs.tech/",
     "notes": "I can't seem to find what they are up to specifically, might be too new to tell?",
-    "tsne_x": 0.3512,
-    "tsne_y": 0.0523
+    "tsne_x": 0.2357,
+    "tsne_y": 0.2793
   },
   {
     "name": "camel ai",
@@ -2788,8 +2854,8 @@
     ],
     "link": "https://www.camel-ai.org/",
     "notes": "framework for multi agent stuff",
-    "tsne_x": -0.1441,
-    "tsne_y": 0.2516
+    "tsne_x": 0.0749,
+    "tsne_y": -0.3265
   },
   {
     "name": "AI tinkerers",
@@ -2808,8 +2874,8 @@
     ],
     "link": "https://aitinkerers.org/p/welcome",
     "notes": "they're fine if you wanna do entrepreneurial stuff, not really research focused",
-    "tsne_x": -0.0995,
-    "tsne_y": -0.1045
+    "tsne_x": -0.3225,
+    "tsne_y": 0.1902
   },
   {
     "name": "learn ai together",
@@ -2825,8 +2891,8 @@
     ],
     "link": "https://www.youtube.com/channel/UCUzGQrN-lyyc0BWTYoJM_Sg",
     "notes": "Some interesting events,jobs,ideas sometimes shared here ; but def a lot of new to ai folks and not much progress on those projects (i think; some are jobs etc)",
-    "tsne_x": -0.0495,
-    "tsne_y": -0.0887
+    "tsne_x": -0.2623,
+    "tsne_y": 0.2292
   },
   {
     "name": "instruct kr (KOREAN)",
@@ -2839,8 +2905,8 @@
     ],
     "link": "https://huggingface.co/instructkr",
     "notes": "its korean; decently active, huggingface stuff to do",
-    "tsne_x": -0.5428,
-    "tsne_y": -0.1659
+    "tsne_x": -0.6426,
+    "tsne_y": 0.0095
   },
   {
     "name": "tunadorable",
@@ -2853,8 +2919,8 @@
     ],
     "link": "https://www.youtube.com/@Tunadorable",
     "notes": "youtube is nice, server isnt too active",
-    "tsne_x": -0.5021,
-    "tsne_y": 0.1213
+    "tsne_x": -0.5523,
+    "tsne_y": -0.2573
   },
   {
     "name": "deep learning with yacine",
@@ -2868,8 +2934,8 @@
     ],
     "link": "https://discord.gg/QpkxRbQBpf",
     "notes": "youtube is nice, this yacine https://www.youtube.com/channel/UCts-XMcexTiPSR8QbyRGFxA",
-    "tsne_x": -0.3183,
-    "tsne_y": -0.0664
+    "tsne_x": -0.306,
+    "tsne_y": -0.155
   },
   {
     "name": "SAIL (stanford ai lab)",
@@ -2882,8 +2948,8 @@
     ],
     "link": "https://discord.gg/sail-1038249716149928046",
     "notes": "Has a japanese section that seems more active than the english section",
-    "tsne_x": -0.5419,
-    "tsne_y": -0.0986
+    "tsne_x": -0.3437,
+    "tsne_y": -0.2434
   },
   {
     "name": "SEA crowd",
@@ -2897,8 +2963,8 @@
     ],
     "link": "https://seacrowd.github.io/",
     "notes": "good if you wanna help on the project.",
-    "tsne_x": 0.0767,
-    "tsne_y": -0.5667
+    "tsne_x": 0.3676,
+    "tsne_y": -0.6849
   },
   {
     "name": "pollen community",
@@ -2912,8 +2978,8 @@
     ],
     "link": "https://www.pollen-robotics.com/",
     "notes": "good if you need help with the project",
-    "tsne_x": 0.4347,
-    "tsne_y": -0.5188
+    "tsne_x": 0.3017,
+    "tsne_y": -0.1464
   },
   {
     "name": "mlops community (unrelated to mlops)",
@@ -2929,8 +2995,8 @@
     ],
     "link": "https://gatewaze.mlops.community/#email",
     "notes": "not too active, better options?",
-    "tsne_x": 0.0584,
-    "tsne_y": -0.0056
+    "tsne_x": -0.2012,
+    "tsne_y": 0.3519
   },
   {
     "name": "ai revolution",
@@ -2943,8 +3009,8 @@
     ],
     "link": "https://www.youtube.com/channel/UCCKx8mAHiFus-XYQLy_WnaA",
     "notes": "fine? if you're very new to ai art creation up to advanced or so",
-    "tsne_x": -0.413,
-    "tsne_y": -0.077
+    "tsne_x": -0.5006,
+    "tsne_y": 0.0019
   },
   {
     "name": "nvidia omniverse",
@@ -2957,8 +3023,8 @@
     ],
     "link": "https://discord.com/invite/nvidiaomniverse",
     "notes": "good if you're using any of the nvidia stuff",
-    "tsne_x": -0.5092,
-    "tsne_y": 0.3353
+    "tsne_x": -0.5851,
+    "tsne_y": 0.3984
   },
   {
     "name": "gensyn",
@@ -2972,8 +3038,8 @@
     ],
     "link": "https://www.gensyn.ai/",
     "notes": "interesting idea ig? i might be misunderstanding what they do though",
-    "tsne_x": 0.3193,
-    "tsne_y": 0.351
+    "tsne_x": 0.0471,
+    "tsne_y": 0.2459
   },
   {
     "name": "DiyBio/scihouse",
@@ -2987,8 +3053,8 @@
     ],
     "link": "https://www.reddit.com/r/DIYbio/about/",
     "notes": "not too active,good if you need Biotech help",
-    "tsne_x": 0.8727,
-    "tsne_y": -0.0451
+    "tsne_x": 0.5429,
+    "tsne_y": 0.7541
   },
   {
     "name": "Farama foundation",
@@ -3002,8 +3068,8 @@
     ],
     "link": "https://farama.org/",
     "notes": "Good if you wanna help on the project or need help;",
-    "tsne_x": -0.1206,
-    "tsne_y": 0.3162
+    "tsne_x": 0.0966,
+    "tsne_y": -0.2882
   },
   {
     "name": "neural MMO",
@@ -3017,8 +3083,8 @@
     ],
     "link": "https://neuralmmo.github.io/_build/html/rst/landing.html",
     "notes": "good if you want to help on the project",
-    "tsne_x": -0.0779,
-    "tsne_y": 0.2663
+    "tsne_x": 0.1422,
+    "tsne_y": -0.3377
   },
   {
     "name": "doomsday cult",
@@ -3031,8 +3097,8 @@
     ],
     "link": "#",
     "notes": "some decently active discord users are here; chats about alignment and doomsday common",
-    "tsne_x": 0.1712,
-    "tsne_y": -0.0587
+    "tsne_x": -0.8973,
+    "tsne_y": 0.0878
   },
   {
     "name": "SaravamAI",
@@ -3046,8 +3112,8 @@
     ],
     "link": "https://www.sarvam.ai/",
     "notes": "has links to irl events and stuff",
-    "tsne_x": -0.1135,
-    "tsne_y": -0.1067
+    "tsne_x": -0.3328,
+    "tsne_y": 0.1801
   },
   {
     "name": "ekkolapto",
@@ -3063,8 +3129,8 @@
     ],
     "link": "https://www.ekkolapto.org/",
     "notes": "more active irl, discord shares events and stuff (some virtual!)",
-    "tsne_x": 0.392,
-    "tsne_y": -0.0558
+    "tsne_x": 0.0713,
+    "tsne_y": 0.462
   },
   {
     "name": "CS25 transformers",
@@ -3077,8 +3143,8 @@
     ],
     "link": "https://twitter.com/stevenyfeng/status/1775972154938659184",
     "notes": "good if you need help with the course but not too active",
-    "tsne_x": -0.2508,
-    "tsne_y": 0.5817
+    "tsne_x": -0.026,
+    "tsne_y": -0.0111
   },
   {
     "name": "lab42",
@@ -3091,8 +3157,8 @@
     ],
     "link": "https://lab42.global/join-us/",
     "notes": "does arc agi stuff currently.",
-    "tsne_x": -0.0733,
-    "tsne_y": 0.0919
+    "tsne_x": -0.8461,
+    "tsne_y": -0.1557
   },
   {
     "name": "encode club",
@@ -3106,8 +3172,8 @@
     ],
     "link": "https://discord.do/encode-club/",
     "notes": "They do AI tangential hackathons",
-    "tsne_x": 0.2178,
-    "tsne_y": 0.4571
+    "tsne_x": -0.8419,
+    "tsne_y": -0.3394
   },
   {
     "name": "bycloud's discord server",
@@ -3120,8 +3186,8 @@
     ],
     "link": "https://www.youtube.com/@bycloudAI https://discord.com/invite/sE8R7e45MV",
     "notes": "server is kinda inactive but channel is good",
-    "tsne_x": -0.2085,
-    "tsne_y": -0.5666
+    "tsne_x": -0.4619,
+    "tsne_y": -0.2332
   },
   {
     "name": "Exploring ml",
@@ -3135,8 +3201,8 @@
     ],
     "link": "https://exploringml.com/",
     "notes": "its a fine education esque beginners server",
-    "tsne_x": -0.003,
-    "tsne_y": 0.0027
+    "tsne_x": -0.2743,
+    "tsne_y": 0.4072
   },
   {
     "name": "National deep inference fabric",
@@ -3150,8 +3216,8 @@
     ],
     "link": "https://ndif.us/",
     "notes": "prob should be in tools in the next page tbh",
-    "tsne_x": -0.235,
-    "tsne_y": 0.4005
+    "tsne_x": 0.1543,
+    "tsne_y": -0.2045
   },
   {
     "name": "tensorplex labs",
@@ -3164,8 +3230,8 @@
     ],
     "link": "https://github.com/tensorplex-labs",
     "notes": "interesting idea ig? i might be misunderstanding what they do though",
-    "tsne_x": 0.2802,
-    "tsne_y": 0.3441
+    "tsne_x": -0.6389,
+    "tsne_y": 0.2124
   },
   {
     "name": "whitebox research",
@@ -3178,8 +3244,8 @@
     ],
     "link": "https://discord.gg/Sfzmd45vrm",
     "notes": "better if you go their place irl",
-    "tsne_x": 0.4091,
-    "tsne_y": -0.1983
+    "tsne_x": 0.4815,
+    "tsne_y": 0.2182
   },
   {
     "name": "machine learning news google groups (among others)",
@@ -3192,8 +3258,8 @@
     ],
     "link": "https://groups.google.com/g/ml-news",
     "notes": "the public ones are all overrun with bots,or otherwise reposts events,phd programs,etc.;I'll add any i see though",
-    "tsne_x": 0.1532,
-    "tsne_y": -0.1403
+    "tsne_x": 0.3107,
+    "tsne_y": 0.0079
   },
   {
     "name": "papers we love",
@@ -3208,8 +3274,8 @@
     ],
     "link": "https://paperswelove.org/",
     "notes": "If you're in any of the locations prob bumped up to like 6.5",
-    "tsne_x": 0.3257,
-    "tsne_y": -0.4209
+    "tsne_x": 0.5602,
+    "tsne_y": 0.0726
   },
   {
     "name": "ai safety strategy",
@@ -3223,8 +3289,8 @@
     ],
     "link": "https://discord.gg/VT7m6Qudc8",
     "notes": "reposts stuff from the ai safety list of resources sometimes and other events",
-    "tsne_x": -0.8478,
-    "tsne_y": -0.1178
+    "tsne_x": 0.8393,
+    "tsne_y": -0.2191
   },
   {
     "name": "the arena online",
@@ -3238,8 +3304,8 @@
     ],
     "link": "https://discord.com/invite/aVayjHQDbq",
     "notes": "Not too active but might change.",
-    "tsne_x": -0.5606,
-    "tsne_y": 0.0384
+    "tsne_x": -0.6529,
+    "tsne_y": -0.1514
   },
   {
     "name": "ai alliance community",
@@ -3254,8 +3320,8 @@
     ],
     "link": "https://thealliance.ai/community",
     "notes": "discord is dead,site still does stuff.",
-    "tsne_x": 0.1536,
-    "tsne_y": -0.2192
+    "tsne_x": 0.3855,
+    "tsne_y": 0.0539
   },
   {
     "name": "Harmonai",
@@ -3270,8 +3336,8 @@
     ],
     "link": "https://x.com/harmonai_org",
     "notes": "Alright if you wanna help with  ai audio",
-    "tsne_x": -0.3765,
-    "tsne_y": -0.5243
+    "tsne_x": -0.4466,
+    "tsne_y": -0.3872
   },
   {
     "name": "Dspy",
@@ -3286,8 +3352,8 @@
     ],
     "link": "https://twitter.com/lateinteraction/status/1754927365174788188",
     "notes": "good if you wanna help the project",
-    "tsne_x": 0.0393,
-    "tsne_y": 0.3249
+    "tsne_x": 0.3342,
+    "tsne_y": -0.3592
   },
   {
     "name": "The NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)",
@@ -3303,8 +3369,8 @@
     ],
     "link": "https://iaifi.org/fellows.html",
     "notes": "reading group's on zoom,everything else irl.",
-    "tsne_x": 0.1891,
-    "tsne_y": -0.229
+    "tsne_x": 0.4,
+    "tsne_y": -0.0172
   },
   {
     "name": "ai art with sebastian kamph",
@@ -3318,8 +3384,8 @@
     ],
     "link": "https://www.youtube.com/@sebastiankamph/videos",
     "notes": "youtube is fine- there are a lot of channels like these",
-    "tsne_x": -0.4061,
-    "tsne_y": -0.0844
+    "tsne_x": -0.4972,
+    "tsne_y": -0.005
   },
   {
     "name": "niostem",
@@ -3334,8 +3400,8 @@
     ],
     "link": "https://niostem.com/",
     "notes": "hair loss research,interesting",
-    "tsne_x": 0.8707,
-    "tsne_y": 0.0341
+    "tsne_x": 0.6097,
+    "tsne_y": 0.6838
   },
   {
     "name": "azure ai foundry",
@@ -3351,8 +3417,8 @@
     ],
     "link": "https://discord.com/invite/azureaifoundry",
     "notes": "entrepreneurship/azure type server",
-    "tsne_x": -0.1245,
-    "tsne_y": -0.0446
+    "tsne_x": -0.3834,
+    "tsne_y": 0.2554
   },
   {
     "name": "buzzrobot",
@@ -3367,8 +3433,8 @@
     ],
     "link": "https://www.youtube.com/@BuzzRobot",
     "notes": "the slack is mostly inactive;otherwise the talks are about varying ai stuff",
-    "tsne_x": -0.2637,
-    "tsne_y": -0.1263
+    "tsne_x": -0.3247,
+    "tsne_y": -0.0816
   },
   {
     "name": "piss",
@@ -3381,8 +3447,8 @@
     ],
     "link": "#",
     "notes": "pess",
-    "tsne_x": -0.6196,
-    "tsne_y": -0.2697
+    "tsne_x": -0.5965,
+    "tsne_y": -0.4835
   },
   {
     "name": "satelite image deep learning",
@@ -3396,8 +3462,8 @@
     ],
     "link": "https://discord.gg/A7mrAYXEv6",
     "notes": "kind of dead,unfortunate.",
-    "tsne_x": -0.1725,
-    "tsne_y": 0.4261
+    "tsne_x": 0.2067,
+    "tsne_y": -0.2377
   },
   {
     "name": "intelligent internet",
@@ -3412,8 +3478,8 @@
     ],
     "link": "https://discord.com/invite/intelligentinternet",
     "notes": "Shipped an open source dataset among other things,crypto based?",
-    "tsne_x": 0.2349,
-    "tsne_y": 0.3933
+    "tsne_x": -0.0045,
+    "tsne_y": -0.1924
   },
   {
     "name": "hu-po",
@@ -3427,8 +3493,8 @@
     ],
     "link": "https://www.youtube.com/@hu-po",
     "notes": "good if you wanna chat with hu-po; Nothing else  interesting goes on here",
-    "tsne_x": -0.3483,
-    "tsne_y": -0.1636
+    "tsne_x": -0.4243,
+    "tsne_y": -0.1205
   },
   {
     "name": "Brev.dev",
@@ -3441,8 +3507,8 @@
     ],
     "link": "https://brev.dev",
     "notes": "got  bought by nvidia; might be restructuring?",
-    "tsne_x": -0.4804,
-    "tsne_y": 0.3964
+    "tsne_x": -0.541,
+    "tsne_y": 0.4677
   },
   {
     "name": "lm arena",
@@ -3455,8 +3521,8 @@
     ],
     "link": "https://discord.gg/PTAdasNUBB",
     "notes": "used to be part of lmsys",
-    "tsne_x": -0.5997,
-    "tsne_y": 0.0009
+    "tsne_x": -0.6981,
+    "tsne_y": -0.1842
   },
   {
     "name": "ai lab",
@@ -3469,8 +3535,8 @@
     ],
     "link": "https://huggingface.co/ailabturkiye",
     "notes": "its turkish; not too active, huggingface stuff to do",
-    "tsne_x": -0.52,
-    "tsne_y": -0.1375
+    "tsne_x": -0.3616,
+    "tsne_y": -0.254
   },
   {
     "name": "chroma",
@@ -3483,8 +3549,8 @@
     ],
     "link": "https://www.trychroma.com/",
     "notes": "seems interesting",
-    "tsne_x": -0.6071,
-    "tsne_y": -0.0061
+    "tsne_x": -0.7046,
+    "tsne_y": -0.2107
   },
   {
     "name": "synth labs",
@@ -3498,8 +3564,8 @@
     ],
     "link": "https://www.synthlabs.ai/",
     "notes": "good if you wanna keep track of synthlabs but dont wanna use twitter (or talk with owners)",
-    "tsne_x": 0.2212,
-    "tsne_y": -0.011
+    "tsne_x": 0.2217,
+    "tsne_y": 0.0814
   },
   {
     "name": "swedish quantum society",
@@ -3513,8 +3579,8 @@
     ],
     "link": "https://enccs.se/network/",
     "notes": "not very active but some posts on quantum once in a while",
-    "tsne_x": 0.7718,
-    "tsne_y": 0.256
+    "tsne_x": 0.8029,
+    "tsne_y": 0.6897
   },
   {
     "name": "lossfunk",
@@ -3529,8 +3595,8 @@
     ],
     "link": "https://lossfunk.com/initialize/",
     "notes": "only adding this one because it's hard to find,compared to other fellowships.",
-    "tsne_x": 0.4911,
-    "tsne_y": -0.3276
+    "tsne_x": 0.6303,
+    "tsne_y": -0.1304
   },
   {
     "name": "ai nordics (sweden and others)",
@@ -3545,8 +3611,8 @@
     ],
     "link": "https://www.ai.se/en",
     "notes": "Nordics are doing AI; server is mostly dead (owner posts stuff sometimes) but the group is doing stuff",
-    "tsne_x": -0.2829,
-    "tsne_y": -0.2747
+    "tsne_x": -0.1932,
+    "tsne_y": -0.5903
   },
   {
     "name": "groundzeroAI",
@@ -3561,8 +3627,8 @@
     ],
     "link": "https://x.com/groundzero_ai",
     "notes": "cool if you want be informed when podcasts occur",
-    "tsne_x": -0.2672,
-    "tsne_y": -0.1203
+    "tsne_x": -0.3261,
+    "tsne_y": -0.0855
   },
   {
     "name": "euroswarms",
@@ -3575,8 +3641,8 @@
     ],
     "link": "https://euroswarms.eu/",
     "notes": "might be kye related? too early to tell",
-    "tsne_x": -0.668,
-    "tsne_y": -0.1572
+    "tsne_x": -0.3246,
+    "tsne_y": -0.688
   },
   {
     "name": "langgang",
@@ -3590,8 +3656,8 @@
     ],
     "link": "https://discord.gg/xbKu66Hsqg",
     "notes": "cool project, not too active though.",
-    "tsne_x": 0.0901,
-    "tsne_y": 0.3729
+    "tsne_x": 0.2941,
+    "tsne_y": -0.5404
   },
   {
     "name": "typhoon",
@@ -3605,8 +3671,8 @@
     ],
     "link": "https://opentyphoon.ai/",
     "notes": "thai based; not really active but company is",
-    "tsne_x": 0.1023,
-    "tsne_y": -0.5296
+    "tsne_x": 0.3413,
+    "tsne_y": -0.6545
   },
   {
     "name": "sage",
@@ -3620,8 +3686,8 @@
     ],
     "link": "https://discord.gg/6qYTXvfKzW",
     "notes": "does the AI village stuff- project of using openai and claude to do stuff on the computer",
-    "tsne_x": 0.1643,
-    "tsne_y": 0.2007
+    "tsne_x": 0.0766,
+    "tsne_y": -0.1591
   },
   {
     "name": "overworld",
@@ -3634,8 +3700,8 @@
     ],
     "link": "https://discord.com/invite/overworld",
     "notes": "cool server if you need help setting it up",
-    "tsne_x": -0.6862,
-    "tsne_y": 0.2678
+    "tsne_x": -0.0733,
+    "tsne_y": -0.7685
   },
   {
     "name": "Alignment lab AI",
@@ -3651,8 +3717,8 @@
     ],
     "link": "https://alignmentlab.ai/projects",
     "notes": "kinda dead; unsure if the site is up to anything or not",
-    "tsne_x": 0.1636,
-    "tsne_y": -0.0095
+    "tsne_x": -0.3526,
+    "tsne_y": -0.4477
   },
   {
     "name": "mlspace the machine learning community",
@@ -3667,8 +3733,8 @@
     ],
     "link": "https://discord.com/servers/mlspace-the-machine-learning-community-736298460231499817",
     "notes": "lots of people ask questions but not much answers lol",
-    "tsne_x": 0.0202,
-    "tsne_y": -0.0735
+    "tsne_x": -0.2429,
+    "tsne_y": 0.2835
   },
   {
     "name": "ai hub by weights",
@@ -3683,8 +3749,8 @@
     ],
     "link": "https://discord.com/invite/aihub",
     "notes": "decently good for simpler/newer ai questions",
-    "tsne_x": -0.2949,
-    "tsne_y": 0.0129
+    "tsne_x": -0.1805,
+    "tsne_y": -0.1366
   },
   {
     "name": "Various AI events on meetup,luma, etc",
@@ -3697,8 +3763,8 @@
     ],
     "link": "https://www.meetup.com/find/?keywords=AI&eventType=online&source=EVENTS",
     "notes": "some are cool;most are trash.",
-    "tsne_x": -0.4039,
-    "tsne_y": 0.1082
+    "tsne_x": -0.5061,
+    "tsne_y": -0.151
   },
   {
     "name": "elysian labs",
@@ -3712,8 +3778,8 @@
     ],
     "link": "https://elysianlabs.ai/",
     "notes": "Maybe one day.... (server is kinda active tbh)",
-    "tsne_x": 0.2843,
-    "tsne_y": -0.1135
+    "tsne_x": 0.3748,
+    "tsne_y": 0.1503
   },
   {
     "name": "Tpu podtcast",
@@ -3726,8 +3792,8 @@
     ],
     "link": "https://discord.com/invite/x52Xz3y",
     "notes": "used to be useful back in the day",
-    "tsne_x": -0.5117,
-    "tsne_y": 0.0223
+    "tsne_x": -0.5935,
+    "tsne_y": -0.163
   },
   {
     "name": "purplesmartai",
@@ -3741,8 +3807,8 @@
     ],
     "link": "https://purplesmart.ai/",
     "notes": "cute",
-    "tsne_x": -0.4627,
-    "tsne_y": -0.1771
+    "tsne_x": -0.1215,
+    "tsne_y": -0.7284
   },
   {
     "name": "cognitive computations",
@@ -3756,8 +3822,8 @@
     ],
     "link": "https://huggingface.co/cognitivecomputations",
     "notes": "huggingface does stuff; server mostly dead",
-    "tsne_x": -0.2696,
-    "tsne_y": -0.3627
+    "tsne_x": -0.2675,
+    "tsne_y": -0.4853
   },
   {
     "name": "datasteward cz",
@@ -3771,8 +3837,8 @@
     ],
     "link": "https://www.eosc.cz/en/communities/datastewards/datastewardsinczechia",
     "notes": "non english, various data stuff",
-    "tsne_x": 0.7374,
-    "tsne_y": -0.3271
+    "tsne_x": 0.1638,
+    "tsne_y": 0.762
   },
   {
     "name": "moondream ai",
@@ -3787,8 +3853,8 @@
     ],
     "link": "https://discord.gg/2y8K9W6jDC",
     "notes": "project to make a visual language model",
-    "tsne_x": -0.0475,
-    "tsne_y": 0.324
+    "tsne_x": 0.2115,
+    "tsne_y": -0.3887
   },
   {
     "name": "TheBlokeAI",
@@ -3802,8 +3868,8 @@
     ],
     "link": "https://huggingface.co/TheBloke",
     "notes": "...whered the server owner go??? Place is still active but not much ai talk",
-    "tsne_x": -0.2476,
-    "tsne_y": -0.2825
+    "tsne_x": -0.1778,
+    "tsne_y": -0.5665
   },
   {
     "name": "buneos aires ai safety club",
@@ -3817,8 +3883,8 @@
     ],
     "link": "Buenos Aires AI Safety Hub",
     "notes": "Pretty standard AI safety group; not too technical; scores higher if you are there,irl,with them",
-    "tsne_x": -0.9675,
-    "tsne_y": -0.048
+    "tsne_x": 1.0,
+    "tsne_y": -0.2282
   },
   {
     "name": "AgentPlex",
@@ -3831,8 +3897,8 @@
     ],
     "link": "https://aiagentschallenge.com/",
     "notes": "the hackathon is nice but very difficult",
-    "tsne_x": 0.1767,
-    "tsne_y": 0.516
+    "tsne_x": -0.8754,
+    "tsne_y": -0.362
   },
   {
     "name": "nomad",
@@ -3846,8 +3912,8 @@
     ],
     "link": "https://nomadlab.eu/prod/v1/staging/docs/",
     "notes": "useful if you use the software",
-    "tsne_x": 0.6686,
-    "tsne_y": 0.0955
+    "tsne_x": 0.5289,
+    "tsne_y": 0.4807
   },
   {
     "name": "A.C.O",
@@ -3863,8 +3929,8 @@
     ],
     "link": "https://discord.gg/99JJrzJG https://artificialconsciencetheory.blogspot.com/",
     "notes": "Server is nigh dead but Owner is still working on the project",
-    "tsne_x": -0.2005,
-    "tsne_y": 0.111
+    "tsne_x": -0.0305,
+    "tsne_y": -0.4791
   },
   {
     "name": "aiproducthive",
@@ -3878,8 +3944,8 @@
     ],
     "link": "https://aiproducthive.com/",
     "notes": "more entrepreneurial focused or AI implementations in startups and companies",
-    "tsne_x": -0.0751,
-    "tsne_y": -0.0444
+    "tsne_x": -0.3142,
+    "tsne_y": 0.2505
   },
   {
     "name": "MLops chipro",
@@ -3894,8 +3960,8 @@
     ],
     "link": "https://discord.com/invite/Mw77HPrgjF",
     "notes": "group trying to be a applied ai server;not too active but owner is still around",
-    "tsne_x": 0.0813,
-    "tsne_y": 0.0061
+    "tsne_x": -0.177,
+    "tsne_y": 0.3615
   },
   {
     "name": "bio/neurao ai to the moon (and other TG channels)",
@@ -3908,8 +3974,8 @@
     ],
     "link": "https://t.me/bioinformaticsdiscus#:~:text=Bio%2FNeuroinformatics%2C%20Transhumanism%2FLongevity%2C%20Epigen%2C%20Art%2C%20CRISPR%2C,Olympics%2C%20Physics%2C%20Fitness%2FBeauty%2C%20Startups%2C%20VC",
     "notes": "telegram doesn't have much discussion of these topics going on,sometimes people share stuff there though.",
-    "tsne_x": 0.418,
-    "tsne_y": 0.4931
+    "tsne_x": -0.0364,
+    "tsne_y": 0.0849
   },
   {
     "name": "various datasci and ml fb groups:",
@@ -3922,8 +3988,8 @@
     ],
     "link": "https://www.facebook.com/groups/1499656380199110",
     "notes": "facebook is probably the worst of the bunch to go looking for groups;although i couldnt find much in the research side of things",
-    "tsne_x": 0.1969,
-    "tsne_y": -0.1498
+    "tsne_x": 0.3326,
+    "tsne_y": 0.0367
   },
   {
     "name": "EXO",
@@ -3936,8 +4002,8 @@
     ],
     "link": "https://exolabs.net/",
     "notes": "I like thier posts on twitter",
-    "tsne_x": -0.4849,
-    "tsne_y": 0.063
+    "tsne_x": -0.5563,
+    "tsne_y": -0.1945
   },
   {
     "name": "replete-ai",
@@ -3950,8 +4016,8 @@
     ],
     "link": "https://repleteai.com/",
     "notes": "server is  a lot more casual but their website is alright",
-    "tsne_x": -0.5361,
-    "tsne_y": 0.1159
+    "tsne_x": -0.595,
+    "tsne_y": -0.2681
   },
   {
     "name": "Rishab academy (for highschoolers)",
@@ -3967,8 +4033,8 @@
     ],
     "link": "https://rishabacademy.com/",
     "notes": "Mostly inactive these days,sometimes other highschoolers link to their own projects here,usually research adjacent",
-    "tsne_x": 0.8675,
-    "tsne_y": -0.1682
+    "tsne_x": 0.4306,
+    "tsne_y": 0.8566
   },
   {
     "name": "latinix in ai",
@@ -3983,8 +4049,8 @@
     ],
     "link": "https://forum.latinxinai.org/signup",
     "notes": "lots of irl events;forum isnt too active.",
-    "tsne_x": -0.414,
-    "tsne_y": 0.0391
+    "tsne_x": -0.5781,
+    "tsne_y": -0.0731
   },
   {
     "name": "stunspot prompting",
@@ -3998,8 +4064,8 @@
     ],
     "link": "https://discord.gg/stunspot",
     "notes": "fine spot for prompt engineeirng",
-    "tsne_x": -0.067,
-    "tsne_y": 0.7016
+    "tsne_x": -0.2744,
+    "tsne_y": 0.5558
   },
   {
     "name": "plastic labs",
@@ -4013,8 +4079,8 @@
     ],
     "link": "https://discord.gg/plasticlabs",
     "notes": "discord doesn't do much- company does though",
-    "tsne_x": 0.1193,
-    "tsne_y": -0.4201
+    "tsne_x": 0.1085,
+    "tsne_y": 0.3506
   },
   {
     "name": "fox engine ai",
@@ -4029,8 +4095,8 @@
     ],
     "link": "https://discord.gg/w9yAympgDV",
     "notes": "Pretty dead; owner does stuff sometimes",
-    "tsne_x": -0.2083,
-    "tsne_y": 0.1089
+    "tsne_x": -0.0366,
+    "tsne_y": -0.4839
   },
   {
     "name": "university of Michigan AI safety initiative",
@@ -4043,8 +4109,8 @@
     ],
     "link": "https://www.maisi.club/",
     "notes": "A bit better if you're in the university",
-    "tsne_x": -0.919,
-    "tsne_y": -0.0481
+    "tsne_x": 0.9458,
+    "tsne_y": -0.2861
   },
   {
     "name": "aixplain agent lab",
@@ -4058,8 +4124,8 @@
     ],
     "link": "https://aixplain.com/",
     "notes": "defiently fine for people newer to non paper/research AI",
-    "tsne_x": -0.1362,
-    "tsne_y": 0.1932
+    "tsne_x": 0.1195,
+    "tsne_y": -0.4383
   },
   {
     "name": "ARBML",
@@ -4074,8 +4140,8 @@
     ],
     "link": "https://huggingface.co/arbml",
     "notes": "kind of active based on huggingface",
-    "tsne_x": 0.0549,
-    "tsne_y": 0.2501
+    "tsne_x": 0.309,
+    "tsne_y": -0.288
   },
   {
     "name": "ontocord",
@@ -4090,8 +4156,8 @@
     ],
     "link": "https://huggingface.co/ontocord",
     "notes": "discord's dead,very active on huggingface though",
-    "tsne_x": -0.1754,
-    "tsne_y": -0.311
+    "tsne_x": -0.1529,
+    "tsne_y": -0.5073
   },
   {
     "name": "Ai accelerator institute",
@@ -4107,8 +4173,8 @@
     ],
     "link": "https://www.aiacceleratorinstitute.com/",
     "notes": "you dont need to put your actual email there, it autoredirects to invite after signing up.",
-    "tsne_x": -0.145,
-    "tsne_y": -0.129
+    "tsne_x": -0.3365,
+    "tsne_y": 0.1231
   },
   {
     "name": "open bioinformatics foundation",
@@ -4121,8 +4187,8 @@
     ],
     "link": "https://open-bio.slack.com/ssb/redirect",
     "notes": "slack is nigh dead; lots of irl events and runs a fellowship thingy",
-    "tsne_x": 0.5382,
-    "tsne_y": -0.2825
+    "tsne_x": 0.5668,
+    "tsne_y": 0.3495
   },
   {
     "name": "UCSB AI safety",
@@ -4138,8 +4204,8 @@
     ],
     "link": "https://ucsbaisafety.org/",
     "notes": "Good if you're going to UCSB.",
-    "tsne_x": -0.9477,
-    "tsne_y": -0.0803
+    "tsne_x": 0.9857,
+    "tsne_y": -0.2768
   },
   {
     "name": "ai for humans",
@@ -4153,8 +4219,8 @@
     ],
     "link": "https://www.youtube.com/channel/UCghJTNTO9kcDeUFXMuSDGLQ",
     "notes": "channel is alright for a more consumer side of AI",
-    "tsne_x": -0.3131,
-    "tsne_y": -0.0208
+    "tsne_x": -0.2421,
+    "tsne_y": -0.1101
   },
   {
     "name": "Weights and biases",
@@ -4168,8 +4234,8 @@
     ],
     "link": "https://wandb.ai/site",
     "notes": "sometimes has interesting annoucements.",
-    "tsne_x": -0.2978,
-    "tsne_y": 0.0902
+    "tsne_x": -0.5089,
+    "tsne_y": 0.1889
   },
   {
     "name": "League of robot runners",
@@ -4182,8 +4248,8 @@
     ],
     "link": "https://www.leagueofrobotrunners.org/",
     "notes": "check back yearly, usually starts late may.",
-    "tsne_x": -0.6577,
-    "tsne_y": 0.0567
+    "tsne_x": -0.7265,
+    "tsne_y": -0.0849
   },
   {
     "name": "sciwork",
@@ -4197,8 +4263,8 @@
     ],
     "link": "https://sciwork.dev/",
     "notes": "non english,not fully sure what they do outside of IRL events",
-    "tsne_x": 0.748,
-    "tsne_y": 0.0626
+    "tsne_x": 0.5256,
+    "tsne_y": 0.5851
   },
   {
     "name": "queuelab",
@@ -4212,8 +4278,8 @@
     ],
     "link": "https://github.com/QueueLab/QCX/blob/b7abc3fdc3df746dcad2c6fadaca0e58459f59ff/README.md?plain=1#L8",
     "notes": "deadish;Creator still does stuff, Can't fully make out what they do though.",
-    "tsne_x": -0.219,
-    "tsne_y": 0.139
+    "tsne_x": -0.0067,
+    "tsne_y": -0.4998
   },
   {
     "name": "dLLM's chat",
@@ -4226,8 +4292,8 @@
     ],
     "link": "https://discord.gg/JKXGTgRXQf",
     "notes": "good if youre using diffusion language models",
-    "tsne_x": 0.0557,
-    "tsne_y": -0.2898
+    "tsne_x": -0.2083,
+    "tsne_y": 0.0144
   },
   {
     "name": "bittensor",
@@ -4241,8 +4307,8 @@
     ],
     "link": "https://bittensor.com/",
     "notes": "interesting idea ig? i might be misunderstanding what they do though",
-    "tsne_x": -0.0106,
-    "tsne_y": -0.6934
+    "tsne_x": -0.6691,
+    "tsne_y": 0.2132
   },
   {
     "name": "AGI",
@@ -4257,8 +4323,8 @@
     ],
     "link": "https://www.irina-lab.ai/",
     "notes": "sites good; discord's kinda dead",
-    "tsne_x": -0.117,
-    "tsne_y": 0.1077
+    "tsne_x": 0.0273,
+    "tsne_y": -0.3526
   },
   {
     "name": "cambridge university ai ethics society",
@@ -4272,8 +4338,22 @@
     ],
     "link": "https://cuaiethics.com/",
     "notes": "most events irl,some zoom events.",
-    "tsne_x": 0.2814,
-    "tsne_y": -0.5909
+    "tsne_x": 0.7741,
+    "tsne_y": -0.0402
+  },
+  {
+    "name": "durham ai safety",
+    "score": 4.7,
+    "short desc": "ai safety",
+    "tags": [
+      "alignment",
+      "mostly inactive",
+      "ai"
+    ],
+    "link": "https://durhamaisafety.uk/",
+    "notes": "Better if you're in the university",
+    "tsne_x": 0.9598,
+    "tsne_y": -0.3148
   },
   {
     "name": "jasmine project",
@@ -4286,8 +4366,8 @@
     ],
     "link": "https://discord.gg/nhtfgMTb2H",
     "notes": "hosts an LLM; has to do with AI agents;prob could be moved to the other page",
-    "tsne_x": -0.2437,
-    "tsne_y": -0.4575
+    "tsne_x": -0.7467,
+    "tsne_y": 0.0639
   },
   {
     "name": "norse",
@@ -4302,8 +4382,8 @@
     ],
     "link": "https://github.com/norse",
     "notes": "cool for neuromorphic stuff/if you need help with the library",
-    "tsne_x": 0.2935,
-    "tsne_y": 0.684
+    "tsne_x": 0.1558,
+    "tsne_y": -0.7541
   },
   {
     "name": "theoretical and computational neuroscience",
@@ -4316,8 +4396,8 @@
     ],
     "link": "https://discord.gg/dDxqTaX5kk",
     "notes": "Only here cause theres so much relation between neuro and ai.",
-    "tsne_x": 0.4121,
-    "tsne_y": 0.6653
+    "tsne_x": -0.1614,
+    "tsne_y": -0.308
   },
   {
     "name": "carperAI",
@@ -4331,8 +4411,8 @@
     ],
     "link": "https://carper.ai/",
     "notes": "dead; everyone moved on to their own projects (you can find the links in the server)",
-    "tsne_x": 0.3241,
-    "tsne_y": 0.1326
+    "tsne_x": 0.3194,
+    "tsne_y": 0.2839
   },
   {
     "name": "chembioai",
@@ -4346,8 +4426,8 @@
     ],
     "link": "https://chembioai.org/",
     "notes": "dead; creator still posts hackathons tho",
-    "tsne_x": 0.2405,
-    "tsne_y": 0.5128
+    "tsne_x": -0.8312,
+    "tsne_y": -0.4123
   },
   {
     "name": "science fair io",
@@ -4362,8 +4442,8 @@
     ],
     "link": "https://www.sciencefair.io/",
     "notes": "there are a number of these groups with links to competitions-maybe ask AI for the competitions or more active ones?",
-    "tsne_x": 0.4853,
-    "tsne_y": 0.298
+    "tsne_x": 0.5806,
+    "tsne_y": -0.3565
   },
   {
     "name": "skunkworks ai",
@@ -4377,8 +4457,8 @@
     ],
     "link": "https://twitter.com/skunkworks_ai/status/1699062357358755905",
     "notes": "dead; think group still does stuff tho",
-    "tsne_x": -0.3635,
-    "tsne_y": -0.3284
+    "tsne_x": -0.3284,
+    "tsne_y": -0.5265
   },
   {
     "name": "agi conference",
@@ -4391,8 +4471,8 @@
     ],
     "link": "https://discord.gg/XQegMBn2yt",
     "notes": "cool conference,discord's dead",
-    "tsne_x": -0.1167,
-    "tsne_y": 0.0679
+    "tsne_x": -0.8464,
+    "tsne_y": -0.0758
   },
   {
     "name": "common crawl foundation",
@@ -4406,8 +4486,8 @@
     ],
     "link": "https://commoncrawl.org/",
     "notes": "not too much goes on here outside of helping with common crawl",
-    "tsne_x": 0.6189,
-    "tsne_y": -0.3007
+    "tsne_x": 0.6539,
+    "tsne_y": 0.3735
   },
   {
     "name": "commune ai",
@@ -4421,8 +4501,8 @@
     ],
     "link": "https://communeai.org/",
     "notes": "unsure",
-    "tsne_x": 0.2322,
-    "tsne_y": 0.3653
+    "tsne_x": 0.0013,
+    "tsne_y": -0.2088
   },
   {
     "name": "open model initative",
@@ -4438,8 +4518,8 @@
     ],
     "link": "https://github.com/Open-Model-Initiative",
     "notes": "group thats trying to do open models,dead",
-    "tsne_x": 0.2802,
-    "tsne_y": -0.2567
+    "tsne_x": 0.4379,
+    "tsne_y": -0.1764
   },
   {
     "name": "open source ai club",
@@ -4452,8 +4532,8 @@
     ],
     "link": "https://discord.gg/TCc5eUJCHY",
     "notes": "nigh dead",
-    "tsne_x": -0.2318,
-    "tsne_y": -0.0455
+    "tsne_x": -0.2516,
+    "tsne_y": -0.2945
   },
   {
     "name": "unireps",
@@ -4466,8 +4546,8 @@
     ],
     "link": "https://unireps.org/2024/community",
     "notes": "join the unireps discord if you care about unireps- they got accepted to neurips but the discord is very dead",
-    "tsne_x": -0.0828,
-    "tsne_y": -0.4259
+    "tsne_x": -0.3623,
+    "tsne_y": 0.0127
   },
   {
     "name": "wikipedia",
@@ -4481,8 +4561,8 @@
     ],
     "link": "#",
     "notes": "stuff relating to voting etc",
-    "tsne_x": 0.9661,
-    "tsne_y": 0.1417
+    "tsne_x": 0.7669,
+    "tsne_y": 0.5078
   },
   {
     "name": "Talms and agentic AI",
@@ -4495,8 +4575,8 @@
     ],
     "link": "https://discord.gg/SqSwKXmTEE",
     "notes": "creator still posts some talks like once every few months",
-    "tsne_x": 0.0735,
-    "tsne_y": -0.3263
+    "tsne_x": -0.2183,
+    "tsne_y": -0.0299
   },
   {
     "name": "interpretability hangout",
@@ -4509,8 +4589,8 @@
     ],
     "link": "#",
     "notes": "was useful back in the day",
-    "tsne_x": -0.5216,
-    "tsne_y": -0.2792
+    "tsne_x": -0.3185,
+    "tsne_y": -0.3388
   },
   {
     "name": "automorphic",
@@ -4524,8 +4604,8 @@
     ],
     "link": "automorphic.ai",
     "notes": "Servers dead but website still working on the stuff they're up to",
-    "tsne_x": -0.5669,
-    "tsne_y": 0.2148
+    "tsne_x": -0.5856,
+    "tsne_y": -0.3695
   },
   {
     "name": "open AI lab",
@@ -4538,8 +4618,8 @@
     ],
     "link": "https://discord.gg/gymPXhPA5S",
     "notes": "used to host talks etc",
-    "tsne_x": -0.2334,
-    "tsne_y": -0.0483
+    "tsne_x": -0.2658,
+    "tsne_y": -0.2798
   },
   {
     "name": "fingptAI 4 finance",
@@ -4552,8 +4632,8 @@
     ],
     "link": "https://ai4finance.org/",
     "notes": "rip,this one's chinese",
-    "tsne_x": -0.6971,
-    "tsne_y": -0.2687
+    "tsne_x": -0.6997,
+    "tsne_y": -0.5856
   },
   {
     "name": "snufa",
@@ -4566,8 +4646,8 @@
     ],
     "link": "https://snufa.net/",
     "notes": "neuro based workshop",
-    "tsne_x": 0.3004,
-    "tsne_y": 0.6853
+    "tsne_x": 0.151,
+    "tsne_y": -0.7584
   },
   {
     "name": "LLM360",
@@ -4580,8 +4660,8 @@
     ],
     "link": "https://www.llm360.ai/",
     "notes": "LLM360 enables community-owned AI through open-source large model research and development.",
-    "tsne_x": -0.1849,
-    "tsne_y": -0.3961
+    "tsne_x": -0.1664,
+    "tsne_y": -0.2329
   },
   {
     "name": "nomic ai",
@@ -4594,8 +4674,8 @@
     ],
     "link": "https://www.nomic.ai/",
     "notes": "dead, moved to invite only slack",
-    "tsne_x": -0.158,
-    "tsne_y": -0.4625
+    "tsne_x": -0.6879,
+    "tsne_y": -0.5411
   },
   {
     "name": "gothenburg artificial intelligence",
@@ -4608,8 +4688,8 @@
     ],
     "link": "https://join.slack.com/t/gothenburgaialliance/shared_invite/zt-1oezru9xg-1X5lEZDEQGttla01Ut5a2A?_ga=2.216102165.229135105.1675245448-196988908.1645104903",
     "notes": "yearly AI conference,paid,maybe i should move to the other sheet;slack is mostly inactive",
-    "tsne_x": -0.1745,
-    "tsne_y": 0.0064
+    "tsne_x": -0.2525,
+    "tsne_y": -0.2144
   },
   {
     "name": "desci labs",
@@ -4623,8 +4703,8 @@
     ],
     "link": "https://www.desci.com/",
     "notes": "dead",
-    "tsne_x": 0.604,
-    "tsne_y": 0.2225
+    "tsne_x": 0.1488,
+    "tsne_y": 0.6179
   },
   {
     "name": "metauni",
@@ -4639,8 +4719,8 @@
     ],
     "link": "https://metauni.org/",
     "notes": "doesnt focus on AI but has ai talks sometimes; using roblox as talkspace is nice",
-    "tsne_x": 0.1109,
-    "tsne_y": -0.2433
+    "tsne_x": -0.146,
+    "tsne_y": 0.0483
   },
   {
     "name": "RL4AA",
@@ -4653,8 +4733,8 @@
     ],
     "link": "#",
     "notes": "ripperoni",
-    "tsne_x": -0.5047,
-    "tsne_y": -0.4536
+    "tsne_x": -0.5592,
+    "tsne_y": -0.6673
   },
   {
     "name": "discoresearch",
@@ -4667,8 +4747,8 @@
     ],
     "link": "https://huggingface.co/DiscoResearch",
     "notes": "server's dead; group is still doing stuff tho",
-    "tsne_x": -0.3007,
-    "tsne_y": -0.4099
+    "tsne_x": -0.3633,
+    "tsne_y": -0.4685
   },
   {
     "name": "Big data biology public discord",
@@ -4682,8 +4762,8 @@
     ],
     "link": "https://www.youtube.com/@BigDataBiology/streams",
     "notes": "discord's dead, creator active",
-    "tsne_x": 0.568,
-    "tsne_y": -0.285
+    "tsne_x": 0.593,
+    "tsne_y": 0.3616
   },
   {
     "name": "DMLR",
@@ -4696,8 +4776,8 @@
     ],
     "link": "https://data.mlr.press/",
     "notes": "this is a journal.",
-    "tsne_x": -0.6747,
-    "tsne_y": -0.4075
+    "tsne_x": -0.4711,
+    "tsne_y": -0.7215
   },
   {
     "name": "tencent hunyuan",
@@ -4710,8 +4790,8 @@
     ],
     "link": "https://discord.gg/8NNxJNbpwK",
     "notes": "at least you can chat with the researchers here",
-    "tsne_x": -0.3427,
-    "tsne_y": -0.2047
+    "tsne_x": -0.436,
+    "tsne_y": -0.0847
   },
   {
     "name": "general reasoning",
@@ -4726,8 +4806,8 @@
     ],
     "link": "https://huggingface.co/GeneralReasoning",
     "notes": "they are cooking something, discord is dead though.",
-    "tsne_x": -0.2335,
-    "tsne_y": -0.1968
+    "tsne_x": -0.2787,
+    "tsne_y": -0.3996
   },
   {
     "name": "ai multiverse",
@@ -4740,8 +4820,8 @@
     ],
     "link": "https://discord.gg/puRyrw869h",
     "notes": "nigh dead",
-    "tsne_x": -0.5563,
-    "tsne_y": -0.416
+    "tsne_x": -0.5029,
+    "tsne_y": -0.6122
   },
   {
     "name": "climate change ai",
@@ -4755,8 +4835,8 @@
     ],
     "link": "https://directory.climatechange.ai/",
     "notes": "their forum mostly posts phd offerings,otherwise pretty dead",
-    "tsne_x": -0.0001,
-    "tsne_y": -0.3535
+    "tsne_x": -0.083,
+    "tsne_y": 0.1708
   },
   {
     "name": "prisma multimodal and mech interp",
@@ -4770,8 +4850,8 @@
     ],
     "link": "https://twitter.com/soniajoseph_/status/1769839049026523276",
     "notes": "prisma itself is fine for mech interp",
-    "tsne_x": 0.3478,
-    "tsne_y": -0.2586
+    "tsne_x": 0.5192,
+    "tsne_y": -0.1956
   },
   {
     "name": "lifestyle corp",
@@ -4784,10 +4864,9 @@
     ],
     "link": "https://lifestylecorp.co.in/",
     "notes": "might be dead soon",
-    "tsne_x": 0.8797,
-    "tsne_y": -0.0055
+    "tsne_x": 0.5835,
+    "tsne_y": 0.7237
   },
- 
   {
     "name": "semeval-2025-task11",
     "score": 3.2,
@@ -4799,8 +4878,8 @@
     ],
     "link": "https://www.codabench.org/competitions/3863/",
     "notes": "checb back next year",
-    "tsne_x": -0.3238,
-    "tsne_y": 0.193
+    "tsne_x": 0.0546,
+    "tsne_y": -0.6345
   },
   {
     "name": "Ai tinkerers montreal",
@@ -4813,8 +4892,8 @@
     ],
     "link": "#",
     "notes": "the larger ai tinkerers groups are still active",
-    "tsne_x": -0.4386,
-    "tsne_y": -0.3389
+    "tsne_x": -0.3812,
+    "tsne_y": -0.5831
   },
   {
     "name": "All AI community",
@@ -4827,8 +4906,8 @@
     ],
     "link": "#",
     "notes": "ded",
-    "tsne_x": -0.5654,
-    "tsne_y": -0.3887
+    "tsne_x": -0.5146,
+    "tsne_y": -0.5857
   },
   {
     "name": "gpu audio",
@@ -4841,8 +4920,8 @@
     ],
     "link": "https://www.youtube.com/watch?v=FIKqriWhcYY",
     "notes": "dead,youtube is active",
-    "tsne_x": -0.5586,
-    "tsne_y": 0.381
+    "tsne_x": -0.6355,
+    "tsne_y": 0.451
   },
   {
     "name": "the sci initative",
@@ -4856,8 +4935,8 @@
     ],
     "link": "https://thesciencecommons.org/",
     "notes": "dead",
-    "tsne_x": 0.606,
-    "tsne_y": 0.222
+    "tsne_x": 0.1499,
+    "tsne_y": 0.6193
   },
   {
     "name": "power systems working group",
@@ -4871,8 +4950,8 @@
     ],
     "link": "https://community.climatechange.ai/c/power-and-energy-systems/power-systems-working-group",
     "notes": "dead,was about power systems",
-    "tsne_x": 0.611,
-    "tsne_y": -0.4906
+    "tsne_x": 0.8344,
+    "tsne_y": 0.447
   },
   {
     "name": "agi sandbox",
@@ -4885,8 +4964,8 @@
     ],
     "link": "https://discord.gg/baMQPrcnsG",
     "notes": "ripperino",
-    "tsne_x": -0.5167,
-    "tsne_y": -0.3882
+    "tsne_x": -0.5744,
+    "tsne_y": -0.6183
   },
   {
     "name": "code dot ai",
@@ -4899,8 +4978,8 @@
     ],
     "link": "https://github.com/CodedotAl",
     "notes": "ded",
-    "tsne_x": -0.581,
-    "tsne_y": -0.3652
+    "tsne_x": -0.5289,
+    "tsne_y": -0.5617
   },
   {
     "name": "Harmonai R&D",
@@ -4914,8 +4993,8 @@
     ],
     "link": "https://discord.gg/dCdqddaUPe",
     "notes": "Dead; Check the harmonai server.",
-    "tsne_x": -0.3932,
-    "tsne_y": -0.5062
+    "tsne_x": -0.4538,
+    "tsne_y": -0.421
   },
   {
     "name": "ai/ml start",
@@ -4928,8 +5007,8 @@
     ],
     "link": "https://discord.gg/AnKvDXXBuM",
     "notes": "ded",
-    "tsne_x": -0.6084,
-    "tsne_y": -0.3581
+    "tsne_x": -0.5414,
+    "tsne_y": -0.5509
   },
   {
     "name": "seons server",
@@ -4942,8 +5021,8 @@
     ],
     "link": "#",
     "notes": "maybe ill do something with it one day",
-    "tsne_x": -0.5586,
-    "tsne_y": 0.1763
+    "tsne_x": -0.5998,
+    "tsne_y": -0.3295
   },
   {
     "name": "young european biologists",
@@ -4957,8 +5036,8 @@
     ],
     "link": "https://youngeuropeanbiologists.wordpress.com/",
     "notes": "very dead",
-    "tsne_x": 0.925,
-    "tsne_y": -0.0378
+    "tsne_x": 0.5919,
+    "tsne_y": 0.7844
   },
   {
     "name": "hypercrowd research",
@@ -4972,8 +5051,8 @@
     ],
     "link": "#",
     "notes": "dead,unsure what it really was about",
-    "tsne_x": 0.8507,
-    "tsne_y": 0.1244
+    "tsne_x": 0.6586,
+    "tsne_y": 0.5571
   },
   {
     "name": "brainworks community builders",
@@ -4987,8 +5066,8 @@
     ],
     "link": "#",
     "notes": "dead",
-    "tsne_x": 0.4078,
-    "tsne_y": 0.6008
+    "tsne_x": -0.1516,
+    "tsne_y": -0.367
   },
   {
     "name": "taysir competition",
@@ -5001,8 +5080,8 @@
     ],
     "link": "#",
     "notes": "did you know conferences have discords now",
-    "tsne_x": -0.1279,
-    "tsne_y": 0.044
+    "tsne_x": -0.8579,
+    "tsne_y": -0.0579
   },
   {
     "name": "octagon AI",
@@ -5015,8 +5094,8 @@
     ],
     "link": "https://discord.gg/ZFq2ZnXFTj",
     "notes": "dead",
-    "tsne_x": -0.5827,
-    "tsne_y": -0.4423
+    "tsne_x": -0.4674,
+    "tsne_y": -0.6033
   },
   {
     "name": "generated ai safety reports",
@@ -5029,8 +5108,8 @@
     ],
     "link": "#",
     "notes": "died when everyone got access to deep research",
-    "tsne_x": -0.8298,
-    "tsne_y": -0.175
+    "tsne_x": 0.7805,
+    "tsne_y": -0.2502
   },
   {
     "name": "automation and reproducibility for ai/ml systems",
@@ -5043,8 +5122,8 @@
     ],
     "link": "https://discord.gg/E675jBUJWV",
     "notes": "daed",
-    "tsne_x": -0.7038,
-    "tsne_y": -0.3773
+    "tsne_x": -0.4356,
+    "tsne_y": -0.7412
   },
   {
     "name": "open empathetic",
@@ -5058,8 +5137,8 @@
     ],
     "link": "https://laion.ai/blog/open-empathic/",
     "notes": "creators went on to do other cool stuff",
-    "tsne_x": -0.3103,
-    "tsne_y": 0.1907
+    "tsne_x": 0.0524,
+    "tsne_y": -0.6185
   },
   {
     "name": "agora",
@@ -5075,7 +5154,7 @@
     ],
     "link": "https://huggingface.co/AgoraX",
     "notes": "code is awful among other things (stealing code/copying repos for starters) Theres a lot more drama but i don't have the full grasp of it",
-    "tsne_x": 0.5003,
-    "tsne_y": 0.175
+    "tsne_x": 0.1836,
+    "tsne_y": 0.5271
   }
 ]

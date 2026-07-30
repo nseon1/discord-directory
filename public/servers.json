@@ -581,6 +581,24 @@
     "notes": "not too active but incredibly useful if you're doing humanities research"
   },
   {
+    "name": "Emerging researchers in artificial life",
+    "score": 7.0,
+    "short desc": "Artificial life; more computational biology based",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "research paper reading group",
+      "other reading group",
+      "opportunities board",
+      "jobs board",
+      "science",
+      "ai"
+    ],
+    "link": "https://alife.org/emerging-researchers-in-alife/",
+    "notes": "focuses more on computational biological \"small\" life than AI welfare/AGI etc"
+  },
+  {
     "name": "JOPRO",
     "score": 7.0,
     "short desc": "Various research and field building projects; anyone can apply, and discord is public",
@@ -978,6 +996,19 @@
     ],
     "link": "https://defenderofbasic.github.io/open-memetics-institute/glossary.html",
     "notes": "interesting group of people doing culture studies"
+  },
+  {
+    "name": "RAGtag",
+    "score": 7.0,
+    "short desc": "most things regarding AI",
+    "tags": [
+      "general",
+      "very active",
+      "grad+industry chat",
+      "ai"
+    ],
+    "link": "https://discord.com/invite/rag-tag",
+    "notes": "Summarizes a lot of stuff going on in the industry and companies well."
   },
   {
     "name": "Ai2 (allen institute for AI)",
@@ -1434,19 +1465,6 @@
     "notes": "pretty solid Computer vision server; also has a youtube channel"
   },
   {
-    "name": "AI and scientific discovery",
-    "score": 6.7,
-    "short desc": "seems to do talks and stuff on various fields",
-    "tags": [
-      "research",
-      "dead",
-      "research paper reading group",
-      "ai"
-    ],
-    "link": "https://ai-scientific-discovery.github.io/",
-    "notes": "talks currently inactive, might start back again soon"
-  },
-  {
     "name": "Ai safety founders",
     "score": 6.7,
     "short desc": "entrepreneurial side,general community building etc",
@@ -1503,9 +1521,9 @@
   {
     "name": "le robot",
     "score": 6.7,
-    "short desc": "robotics",
+    "short desc": "Research on robots",
     "tags": [
-      "research",
+      "robotics",
       "active",
       "grad+industry chat",
       "jobs board",
@@ -1513,6 +1531,19 @@
     ],
     "link": "https://huggingface.co/lerobot",
     "notes": "Robotics server!"
+  },
+  {
+    "name": "AI and scientific discovery",
+    "score": 6.7,
+    "short desc": "seems to do talks and stuff on various fields",
+    "tags": [
+      "research",
+      "dead",
+      "research paper reading group",
+      "ai"
+    ],
+    "link": "https://ai-scientific-discovery.github.io/",
+    "notes": "talks currently inactive, might start back again soon"
   },
   {
     "name": "goodfire research",
@@ -1526,18 +1557,6 @@
     ],
     "link": "https://platform.goodfire.ai/landing",
     "notes": "their publications are good; server not too active though"
-  },
-  {
-    "name": "huntr",
-    "score": 6.7,
-    "short desc": "platform to find ai bug bounties",
-    "tags": [
-      "casual",
-      "mostly inactive",
-      "ai"
-    ],
-    "link": "https://huntr.com/bounties",
-    "notes": "Use the site. Site is incredibly useful."
   },
   {
     "name": "Carnegie mellon university AI safety",
@@ -1898,6 +1917,19 @@
     "notes": "Great if you're in wisconsin"
   },
   {
+    "name": "SIGrobotics illinois",
+    "score": 6.5,
+    "short desc": "Uni group doing robotics stuff",
+    "tags": [
+      "robotics",
+      "semi active",
+      "jobs board",
+      "ai"
+    ],
+    "link": "https://sigrobotics.acm.illinois.edu/",
+    "notes": "Better if you go to the university"
+  },
+  {
     "name": "aisafety dot com",
     "score": 6.5,
     "short desc": "resources (events conferences etc)",
@@ -2201,6 +2233,18 @@
     "notes": "election science stuff,more policy based but still interesting"
   },
   {
+    "name": "huntr",
+    "score": 6.4,
+    "short desc": "platform to find ai bug bounties",
+    "tags": [
+      "casual",
+      "mostly inactive",
+      "ai"
+    ],
+    "link": "https://huntr.com/bounties",
+    "notes": "Use the site. Site is incredibly useful."
+  },
+  {
     "name": "computer vision",
     "score": 6.3,
     "short desc": "computer vision",
@@ -2213,6 +2257,20 @@
     ],
     "link": "https://discord.gg/GregHWDXeJ",
     "notes": "Good if you need computer vision help; check the darknet computer vision tool on the next sheet too"
+  },
+  {
+    "name": "Queensland Ai safety",
+    "score": 6.3,
+    "short desc": "ai safety,resources to fellowships",
+    "tags": [
+      "alignment",
+      "semi active",
+      "irl based",
+      "opportunities board",
+      "ai"
+    ],
+    "link": "https://discord.com/invite/ACJvh7xA",
+    "notes": "A university AI safety group, a bit better if you're in the uni."
   },
   {
     "name": "ai village",
@@ -3734,6 +3792,18 @@
     ],
     "link": "https://cuaiethics.com/",
     "notes": "most events irl,some zoom events."
+  },
+  {
+    "name": "durham ai safety",
+    "score": 4.7,
+    "short desc": "ai safety",
+    "tags": [
+      "alignment",
+      "mostly inactive",
+      "ai"
+    ],
+    "link": "https://durhamaisafety.uk/",
+    "notes": "Better if you're in the university"
   },
   {
     "name": "jasmine project",
