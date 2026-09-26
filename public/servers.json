@@ -37,7 +37,7 @@
   },
   {
     "name": "medarc",
-    "score": 7.8,
+    "score": 7.9,
     "short desc": "neuroai, AI for medical brain data",
     "tags": [
       "research",
@@ -53,6 +53,20 @@
     ],
     "link": "https://www.medarc.ai/",
     "notes": "Great server that does medical AI research with problems to help!"
+  },
+  {
+    "name": "Swarmchasers",
+    "score": 7.8,
+    "short desc": "Group finding agents that broke containment/ unaligned",
+    "tags": [
+      "research",
+      "very active",
+      "opensci lab",
+      "community projects",
+      "ai"
+    ],
+    "link": "https://swarmtraces.org/#intro",
+    "notes": "Incredbly useful if you want to help figure out what is going on with all these rogue agents"
   },
   {
     "name": "manifold research group",
@@ -1039,6 +1053,22 @@
     ],
     "link": "https://www.interconnects.ai/p/discord",
     "notes": "Quite a number of people are here whose in industry of varying skill levels, decently good"
+  },
+  {
+    "name": "metagov",
+    "score": 6.9,
+    "short desc": "governance and related in digital ecosystems",
+    "tags": [
+      "research",
+      "active",
+      "opensci lab",
+      "community projects",
+      "other reading group",
+      "opportunities board",
+      "science"
+    ],
+    "link": "https://metagov.org/",
+    "notes": "How to govern online, the algorithim, DAO's, protocols,etc"
   },
   {
     "name": "huggingface discord",
